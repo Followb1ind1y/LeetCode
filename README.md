@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/Followb1ind1y"><img src="https://img.shields.io/static/v1?logo=github&label=maintainer&message=Followb1ind1y&color=eb5334" alt="Last Commit"/></a>
-<a href="https://github.com/Followb1ind1y/LeetCode/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/Followb1ind1y/LeetCode.svg?colorB=eb9f34&style=flat" alt="Last Commit"/> </a> 
+<a href="https://github.com/Followb1ind1y/LeetCode/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/Followb1ind1y/LeetCode.svg?colorB=eb9f34&style=flat" alt="Last Commit"/> </a>
 <img src="https://img.shields.io/github/repo-size/Followb1ind1y/LeetCode.svg?colorB=34ebae&style=flat" alt="Size"/>
 <img src="https://img.shields.io/github/languages/top/Followb1ind1y/LeetCode.svg?colorB=9f34eb&style=flat" alt="Language"/></a>
 </p>
@@ -11,14 +11,14 @@
 </p>
 
 # **LeetCode Problems' Solutions**
-## **Array**
-* [11. Container With Most Water ](https://github.com/Followb1ind1y/Data_Science_Outline/blob/main/Data_Visualization/01_Basic_Data_Visualization_Tools.ipynb)
-## **Linked List**
-## **Hash Table**
-## **String**
-## **Sorting**
-## **Math**
-## **Dynamic Programming**
-## **Tree**
-## **Binary Search**
-## **Matrix**
+### **Array**
+* [11. Container With Most Water ](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
+### **Linked List**
+### **Hash Table**
+### **String**
+### **Sorting**
+### **Math**
+### **Dynamic Programming**
+### **Tree**
+### **Binary Search**
+### **Matrix**
