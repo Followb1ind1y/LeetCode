@@ -18,7 +18,7 @@ In this case, the max area of water (blue section) the container can contain is 
 ```
 
 ### **思路**
-* 设置left, right 从最左最右开始记录面积 之后不断选择左右两边中矮的一边忘另一侧移动
+* **设置left, right 从最左最右开始记录面积 之后不断选择左右两边中矮的一边忘另一侧移动**
 
 ### **代码**
 
@@ -39,5 +39,5 @@ class Solution:
         return max_area
 ```
 ### **复杂度分析**
-* **时间复杂度：** O(n)
-* **空间复杂度：** O(1)
+* **时间复杂度：O(n)**
+* **空间复杂度：O(1)**
