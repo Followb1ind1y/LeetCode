@@ -11,14 +11,14 @@
 </p>
 
 # **LeetCode Problems' Solutions**
-### **Array**
+## **Array**
 * [11. Container With Most Water ](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
-### **Linked List**
-### **Hash Table**
-### **String**
-### **Sorting**
-### **Math**
-### **Dynamic Programming**
-### **Tree**
-### **Binary Search**
-### **Matrix**
+## **Linked List**
+## **Hash Table**
+## **String**
+## **Sorting**
+## **Math**
+## **Dynamic Programming**
+## **Tree**
+## **Binary Search**
+## **Matrix**
