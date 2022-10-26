@@ -12,10 +12,11 @@
 
 # **LeetCode Problems' Solutions**
 ## **Array**
-* [11. Container With Most Water ](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
+* [11. Container With Most Water](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
 ## **Linked List**
 ## **Hash Table**
 ## **String**
+* [3. Longest Substring Without Repeating Characters](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
 ## **Sorting**
 ## **Math**
 ## **Dynamic Programming**
