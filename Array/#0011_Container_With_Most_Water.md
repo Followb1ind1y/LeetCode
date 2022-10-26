@@ -1,6 +1,6 @@
 ## **11. Container With Most Water**
 
-[LeetCode 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+[[Medium] LeetCode 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `ith` line are `(i, 0)` and `(i, height[i])`.
 
@@ -22,23 +22,22 @@ In this case, the max area of water (blue section) the container can contain is 
 
 ### **代码**
 
-```python
+``` python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        max_amount = 0
         left = 0
-        right = len(height)  - 1
+        right = len(height) - 1
+        max_area = 0
 
-        while(left < right) :
-            hi = min(height[left],height[right])
-            le = right - left
-            max_amount = max(max_amount, hi*le)
+        while(left < right):
+            curr_area = min(height[left],height[right]) * (right - left)
+            max_area = max(curr_area, max_area)
             if height[left] < height[right]:
                 left += 1
             else:
-                right -=1
-        return max_amount
+                right -= 1
+        return max_area
 ```
 ### **复杂度分析**
-* **时间复杂度：**
-* **空间复杂度：**
+* **时间复杂度：$O(n)$**
+* **空间复杂度：$O(1)$**
