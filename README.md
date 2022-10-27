@@ -13,10 +13,10 @@
 # **LeetCode Problems' Solutions**
 ## **Array**
 * [11. Container With Most Water](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/%230011_Container_With_Most_Water.md)
-## **Linked List**
-## **Hash Table**
 ## **String**
 * [3. Longest Substring Without Repeating Characters](https://github.com/Followb1ind1y/LeetCode/blob/main/String/%230003_Longest_Substring_Without_Repeating_Characters.md)
+## **Linked List**
+* [21. Merge Two Sorted Lists](https://github.com/Followb1ind1y/LeetCode/blob/main/String/%230003_Longest_Substring_Without_Repeating_Characters.md)
 ## **Sorting**
 ## **Math**
 ## **Dynamic Programming**

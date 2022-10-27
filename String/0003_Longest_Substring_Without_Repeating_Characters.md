@@ -19,7 +19,7 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ```
 
 ### **思路**
-* **创建 hashmap 保存录入 str 的位次 ({"str", index}) 创建指针 start_point 用来记录起始位置 用loop 的 i 记录当前位置**
+* **创建 hashmap 保存录入 str 的位次 (e.g. {"str", index}) 创建指针 start_point 用来记录起始位置 用loop 的 i 记录当前位置**
 * **若当前位次的 str 未出现在 hashmap 中时 将当前位次的 str 录入 hashmap 或者 若当前位次的 str 出现在 start_point 之前 则更新 hashmap 记录的 index 之后更新 max_len (i - start_point + 1)**
 * **当搜索到当前位次的 str 曾出现在 hashmap 中时 检查它是否出现在起始位置前 若不是 则重置起始位置 i 并更新 hashmap 记录的 index**
 
