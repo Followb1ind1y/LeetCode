@@ -21,7 +21,7 @@
 * [15. 3Sum](https://leetcode.com/problems/3sum/)
 ## **Math**
 ## **Dynamic Programming**
-* [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+* [22. Generate Parentheses](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 ## **Tree**
 ## **Binary Search**
 ## **Matrix**
