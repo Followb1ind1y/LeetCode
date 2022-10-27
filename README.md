@@ -18,8 +18,10 @@
 ## **Linked List**
 * [21. Merge Two Sorted Lists](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 ## **Sorting**
+* [15. 3Sum](https://leetcode.com/problems/3sum/)
 ## **Math**
 ## **Dynamic Programming**
+* [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 ## **Tree**
 ## **Binary Search**
 ## **Matrix**
