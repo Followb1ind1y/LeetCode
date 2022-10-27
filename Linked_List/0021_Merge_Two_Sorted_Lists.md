@@ -24,6 +24,7 @@ Output: [1,1,2,3,4,4]
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         prehead = ListNode(-1)
