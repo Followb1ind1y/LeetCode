@@ -12,17 +12,17 @@
 
 # **LeetCode Problems' Solutions**
 ## **Array**
-* [11. Container With Most Water](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
+* [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
 ## **String**
-* [3. Longest Substring Without Repeating Characters](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
+* [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
 ## **Linked List**
-* [21. Merge Two Sorted Lists](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
+* [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 ## **Sorting**
-* [15. 3Sum](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
+* [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 ## **Math**
-* [7. Reverse Integer](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
+* [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
 ## **Dynamic Programming**
-* [22. Generate Parentheses](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
+* [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 ## **Tree**
 ## **Binary Search**
 ## **Matrix**
