@@ -20,7 +20,7 @@
 ## **Sorting**
 * [15. 3Sum](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 ## **Math**
-* [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+* [7. Reverse Integer](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
 ## **Dynamic Programming**
 * [22. Generate Parentheses](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 ## **Tree**
