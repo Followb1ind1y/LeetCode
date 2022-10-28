@@ -15,6 +15,7 @@
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
 ## **String**
 * [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
+* [5. Longest Palindromic Substring [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0005_Longest_Palindromic_Substring.md)
 ## **Linked List**
 * [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 ## **Sorting**
