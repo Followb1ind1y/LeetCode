@@ -19,7 +19,7 @@ Output: "bb"
 
 ### **思路**
 * **首先确定中心 分奇数偶数两种情况创建 helper function 不断移动中心来检测所以情况 最终返回最大值**
-* **`max( )` function的用法：`max_val = max(var1, var2, var3, key=len)` 通过设置 `key = len` 使得 `max()` 返回的值不为最大长度的数值 而为最大长度的 str**
+* **`max()` function的用法：`max_val = max(var1, var2, var3, key=len)` 通过设置 `key = len` 使得 `max()` 返回的值不为最大长度的数值 而为最大长度的 str**
 
 ### **代码**
 

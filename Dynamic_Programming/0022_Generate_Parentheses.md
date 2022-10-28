@@ -10,8 +10,8 @@ Output: ["((()))","(()())","(())()","()(())","()()()"]
 ```
 
 ### **思路**
-* **创建 helper function 用于 Recursion 从空的string ("") 开始记录括号 用 left 和 right 来记录剩余需要补充的括号**
-* **当剩余 left 大于 0 时 我们始终可以添加新的 "(" 当剩余 left 小于 right 时 我们可以选择添加新的 ")" 当 left 和 right 均为 0 时 将 string 记录到最终的 res 中**
+* **创建 helper function 用于 Recursion 从空的string `("")` 开始记录括号 用 left 和 right 来记录剩余需要补充的括号**
+* **当剩余 left 大于 0 时 我们始终可以添加新的 `"("` 当剩余 left 小于 right 时 我们可以选择添加新的 `")"` 当 left 和 right 均为 0 时 将 string 记录到最终的 res 中**
 
 ### **代码**
 
