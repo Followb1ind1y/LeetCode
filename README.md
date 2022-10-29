@@ -18,6 +18,8 @@
 * [5. Longest Palindromic Substring [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0005_Longest_Palindromic_Substring.md)
 ## **Linked List**
 * [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
+* [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md)
+* [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
 ## **Sorting**
 * [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 * [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
