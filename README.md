@@ -20,6 +20,7 @@
 * [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 ## **Sorting**
 * [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
+* [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
 ## **Math**
 * [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
 ## **Dynamic Programming**
