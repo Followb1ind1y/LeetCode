@@ -22,8 +22,8 @@ merging them into one sorted list:
 ### **思路**
 * **将 Merge k Sorted Lists 问题转化为多个 Merge Two Sorted Lists 问题 将首尾的 `lists` 合并并存储在前面的位次 最终不算缩短 lists (e.g. `1, 2, 3, 4, 5 -> 15, 24, 3 -> 153, 24 -> 15324`)**
 * **注意 `round()` 的特殊情况: 四舍五入至最接近的偶数 (e.g. `round(5/2) -> 2, round(7/2) -> 4`)**
-* 可使用`ceil()` 于 rounding up 情况 (e.g. `ceil(5/2) -> 3, ceil(7/2) -> 4`) **
-* 可使用`floor()` 于 rounding down 情况 (e.g. `floor(5/2) -> 2, floor(7/2) -> 3`) **
+* **可使用`ceil()` 于 rounding up 情况 (e.g. `ceil(5/2) -> 3, ceil(7/2) -> 4`)**
+* **可使用`floor()` 于 rounding down 情况 (e.g. `floor(5/2) -> 2, floor(7/2) -> 3`)**
 
 ### **代码**
 
