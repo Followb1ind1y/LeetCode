@@ -31,5 +31,6 @@
 ## **Binary Search**
 * [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md)
 ## **Matrix**
-## **To List**
+## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+* [31. Next Permutation [Medium]](https://leetcode.com/problems/next-permutation/)

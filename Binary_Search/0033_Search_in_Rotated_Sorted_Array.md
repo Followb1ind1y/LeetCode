@@ -22,6 +22,7 @@ Output: -1
 
 ### **思路**
 * **设置 `left` `right` 两个 Pointer 通过计算中心点位不断 Binary Search 来更快的找到需要的值**
+* **虽然 Array 被 Rotated 但被中心点位分割后至少有一侧还是 Sorted 通过这个规律来寻找所需要的值**
 
 ### **代码**
 
