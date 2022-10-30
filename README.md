@@ -29,4 +29,7 @@
 * [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 ## **Tree**
 ## **Binary Search**
+* [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md)
 ## **Matrix**
+## **To List**
+* [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
