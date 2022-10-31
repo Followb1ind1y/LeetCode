@@ -20,7 +20,7 @@ These are the only two combinations.
 ```
 
 ### **思路**
-* **利用 Depth-first search (DFS) 反复在 `candidates` 中寻找 当 `target` 为 0 时将当前的 list 并入最终结果 `res`\**
+* **利用 Depth-first search (DFS) 反复在 `candidates` 中寻找 当 `target` 为 0 时将当前的 list 并入最终结果 `res`**
 
 ### **代码**
 
