@@ -33,8 +33,10 @@
 * [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md)
 ## **Matrix**
 * [36. Valid Sudoku [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0036_Valid_Sudoku.md)
+* [48. Rotate Image [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0048_Rotate_Image.md)
 ## **Backtracking**
 * [39. Combination Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0039_Combination_Sum.md)
+* [46. Permutations [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0046_Permutations.md)
 ## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 * [31. Next Permutation [Medium]](https://leetcode.com/problems/next-permutation/)
