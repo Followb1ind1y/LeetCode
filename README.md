@@ -13,6 +13,7 @@
 # **LeetCode Problems' Solutions**
 ## **Array**
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
+* [42. Trapping Rain Water [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0042_Trapping_Rain_Water.md)
 ## **String**
 * [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
 * [5. Longest Palindromic Substring [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0005_Longest_Palindromic_Substring.md)
