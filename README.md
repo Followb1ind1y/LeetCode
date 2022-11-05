@@ -13,6 +13,7 @@
 # **LeetCode Problems' Solutions**
 ## **Array**
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
+* [31. Next Permutation [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0031_Next_Permutation.md)
 * [42. Trapping Rain Water [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0042_Trapping_Rain_Water.md)
 ## **String**
 * [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
@@ -40,7 +41,5 @@
 * [46. Permutations [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0046_Permutations.md)
 ## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-* [31. Next Permutation [Medium]](https://leetcode.com/problems/next-permutation/)
 * [37. Sudoku Solver [Hard]](https://leetcode.com/problems/sudoku-solver/)
-* [42. Trapping Rain Water [Hard]](https://leetcode.com/problems/trapping-rain-water/)
 * [44. Wildcard Matching [Hard]](https://leetcode.com/problems/wildcard-matching/)
