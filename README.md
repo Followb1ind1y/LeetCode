@@ -39,6 +39,7 @@
 ## **Backtracking**
 * [39. Combination Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0039_Combination_Sum.md)
 * [46. Permutations [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0046_Permutations.md)
+* [51. N-Queens [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0051_N-Queens.md)
 ## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 * [37. Sudoku Solver [Hard]](https://leetcode.com/problems/sudoku-solver/)
