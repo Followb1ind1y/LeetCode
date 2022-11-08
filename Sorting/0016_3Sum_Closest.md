@@ -1,6 +1,6 @@
 ## **16. 3Sum Closest**
 
-[16. 3Sum Closest [Medium]](https://leetcode.com/problems/3sum-closest/description/)
+[LeetCode 16. 3Sum Closest [Medium]](https://leetcode.com/problems/3sum-closest/description/)
 
 Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to `target`.
 
