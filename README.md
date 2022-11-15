@@ -31,6 +31,7 @@
 ## **Dynamic Programming**
 * [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 * [45. Jump Game II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0045_Jump_Game_II.md)
+* [62. Unique Paths [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0062_Unique_Paths.md)
 ## **Tree**
 * [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md)
 ## **Binary Search**
