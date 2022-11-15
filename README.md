@@ -32,7 +32,7 @@
 * [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md)
 * [45. Jump Game II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0045_Jump_Game_II.md)
 ## **Tree**
-* [94. Binary Tree Inorder Traversal [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md)
+* [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md)
 ## **Binary Search**
 * [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md)
 ## **Matrix**
