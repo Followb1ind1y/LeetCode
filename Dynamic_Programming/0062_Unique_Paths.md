@@ -50,3 +50,7 @@ class Solution:
 ### **复杂度分析**
 * **时间复杂度：O(m*n)**
 * **空间复杂度：O(n)**
+
+### **类似问题**
+* [LeetCode 63. Unique Paths II [Medium]](https://leetcode.com/problems/unique-paths-ii/)
+* [LeetCode 64. Minimum Path Sum [Medium]](https://leetcode.com/problems/minimum-path-sum/)
