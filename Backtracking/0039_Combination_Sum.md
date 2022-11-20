@@ -35,7 +35,7 @@ class Solution:
             if target == 0:
                 res.append(store)
             for j in range(len(candidates)):
-                helper(candidates[j:], target - candidates[j], store+[candidates[j]])
+                helper(candidates[j:], target - candidates[j], store + [candidates[j]])
 
         helper(candidates, target, [])
 
