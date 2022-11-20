@@ -38,6 +38,7 @@
 * [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md)
 ## **Binary Search**
 * [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md)
+* [74. Search a 2D Matrix [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0074_Search_a_2D_Matrix.md)
 ## **Matrix**
 * [36. Valid Sudoku [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0036_Valid_Sudoku.md)
 * [48. Rotate Image [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0048_Rotate_Image.md)
