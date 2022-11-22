@@ -28,6 +28,7 @@
 * [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 * [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
 * [56. Merge Intervals [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0056_Merge_Intervals.md) 🔥
+* [75. Sort Colors [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0075_Sort_Colors.md) 🔥
 ## **Math**
 * [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
 ## **Dynamic Programming**
