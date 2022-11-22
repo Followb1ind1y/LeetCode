@@ -21,11 +21,11 @@ Output: [0,1,2]
 在不能使用 `sort()` 的情况下 完成 in-place 的三个数字 `Array` 排序 类似于国旗排序问题 -> [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
 
 ### **思路**
-* **设置三个 pointer 分别代表 zeros, ones, twos 的位置, zeros 和 ones 的起始位置 为 0, twos 的起始位置为 len(nums) - 1**
-* **zeros 左侧的所有数字都为 0 twos 右侧的所有数字都为 2**
-* **在 loop 过程中 以 ones 的 pointer 为标准不断移动 当当前位次的数字为 0 时 将当前位次的数字和 zeros 对应的数字 (即 1) 交换 并将 zeros 和 ones 都向右移动**
-* **当当前位次的数字为 1 时 将 ones 向右侧移动**
-* **当当前位次的数字为 2 时 将当前位次的数字和 twos 对应的数字交换 并将 twos 都向左移动 ones 不需要移动 因为换到前面的数字还没有判断**
+* **设置三个 `pointer` 分别代表 `zeros`, `ones`, `twos` 的位置, `zeros` 和 `ones` 的起始位置 为 `0`, `twos` 的起始位置为 `len(nums) - 1`**
+* **`zeros` 左侧的所有数字都为 `0` `twos` 右侧的所有数字都为 `2`**
+* **在 loop 过程中 以 `ones` 的 pointer 为标准不断移动 当当前位次的数字为 `0` 时 将当前位次的数字和 `zeros` 对应的数字 (即 `1`) 交换 并将 `zeros` 和 `ones` 都向右移动**
+* **当当前位次的数字为 `1` 时 将 `ones` 向右侧移动**
+* **当当前位次的数字为 `2` 时 将当前位次的数字和 `twos` 对应的数字交换 并将 `twos` 都向左移动 `ones` 不需要移动 因为换到前面的数字还没有判断**
 
 ### **代码**
 
