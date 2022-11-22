@@ -18,7 +18,7 @@ Input: nums = [2,0,1]
 Output: [0,1,2]
 ```
 ### 理解
-**在不能使用 `sort()` 的情况下 完成 in-place 的三个数字 `Array` 排序 类似于国旗排序问题 -> [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)**
+在不能使用 `sort()` 的情况下 完成 in-place 的三个数字 `Array` 排序 类似于国旗排序问题 -> [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
 
 ### **思路**
 * **设置三个 `pointer` 分别代表 `zeros`, `ones`, `twos` 的位置, `zeros` 和 `ones` 的起始位置 为 `0`, `twos` 的起始位置为 `len(nums) - 1`**
