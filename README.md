@@ -20,6 +20,7 @@
 * [5. Longest Palindromic Substring [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0005_Longest_Palindromic_Substring.md) 🔥
 * [68. Text Justification [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0068_Text_Justification.md)
 * [71. Simplify Path [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0071_Simplify_Path.md) 🔥
+* [76. Minimum Window Substring [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0076_Minimum_Window_Substring.md) 🔥
 ## **Linked List**
 * [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 * [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md) 🔥
