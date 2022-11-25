@@ -51,3 +51,6 @@ class Solution:
 ### **复杂度分析**
 * **时间复杂度：O(log(n))**
 * **空间复杂度：O(1)**
+
+### **类似题目**
+* [LeetCode 81. Search in Rotated Sorted Array II [Medium]](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
