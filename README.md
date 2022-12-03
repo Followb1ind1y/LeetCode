@@ -26,6 +26,7 @@
 * [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md) 🔥
 * [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
 * [206. Reverse Linked List [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0206_Reverse_Linked_List.md) 🔥
+* [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md) 
 ## **Sorting**
 * [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 * [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
