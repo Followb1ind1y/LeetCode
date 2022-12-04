@@ -28,6 +28,7 @@
 * [74. Search a 2D Matrix [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0074_Search_a_2D_Matrix.md)
 
 ## **Bit Manipulation**
+* [191. Number of 1 Bits [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Bit_Manipulation/0191_Number_of_1_Bits.md) 
 * [461. Hamming Distance [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Bit_Manipulation/0461_Hamming_Distance.md) 🔥
 
 ## **Dynamic Programming**
