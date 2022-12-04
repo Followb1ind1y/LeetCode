@@ -11,47 +11,61 @@
 </p>
 
 # **LeetCode Problems' Solutions**
+
 ## **Array**
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
 * [31. Next Permutation [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0031_Next_Permutation.md) 🔥
 * [42. Trapping Rain Water [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0042_Trapping_Rain_Water.md)
+
+## **Backtracking**
+* [39. Combination Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0039_Combination_Sum.md)
+* [46. Permutations [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0046_Permutations.md) 🔥
+* [51. N-Queens [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0051_N-Queens.md)
+* [79. Word Search [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0079_Word_Search.md)
+
+## **Binary Search**
+* [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md) 🔥
+* [74. Search a 2D Matrix [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0074_Search_a_2D_Matrix.md)
+
+## **Bit Manipulation**
+* [461. Hamming Distance [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Bit_Manipulation/0461_Hamming_Distance.md) 🔥
+
+## **Dynamic Programming**
+* [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md) 🔥
+* [45. Jump Game II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0045_Jump_Game_II.md)
+* [62. Unique Paths [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0062_Unique_Paths.md) 🔥
+
+## **Linked List**
+* [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md)
+* [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
+* [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md) 🔥
+* [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
+* [206. Reverse Linked List [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0206_Reverse_Linked_List.md) 🔥
+* [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md)
+
+## **Math**
+* [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
+
+## **Matrix**
+* [36. Valid Sudoku [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0036_Valid_Sudoku.md)
+* [48. Rotate Image [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0048_Rotate_Image.md) 🔥
+
+## **Sorting**
+* [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
+* [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
+* [56. Merge Intervals [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0056_Merge_Intervals.md) 🔥
+* [75. Sort Colors [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0075_Sort_Colors.md) 🔥
+
 ## **String**
 * [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
 * [5. Longest Palindromic Substring [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0005_Longest_Palindromic_Substring.md) 🔥
 * [68. Text Justification [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0068_Text_Justification.md)
 * [71. Simplify Path [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0071_Simplify_Path.md) 🔥
 * [76. Minimum Window Substring [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0076_Minimum_Window_Substring.md) 🔥
-## **Linked List**
-* [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md) 
-* [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
-* [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md) 🔥
-* [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
-* [206. Reverse Linked List [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0206_Reverse_Linked_List.md) 🔥
-* [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md)
-## **Sorting**
-* [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
-* [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
-* [56. Merge Intervals [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0056_Merge_Intervals.md) 🔥
-* [75. Sort Colors [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0075_Sort_Colors.md) 🔥
-## **Math**
-* [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
-## **Dynamic Programming**
-* [22. Generate Parentheses [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0022_Generate_Parentheses.md) 🔥
-* [45. Jump Game II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0045_Jump_Game_II.md)
-* [62. Unique Paths [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0062_Unique_Paths.md) 🔥
+
 ## **Tree**
 * [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md) 🔥
-## **Binary Search**
-* [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md) 🔥
-* [74. Search a 2D Matrix [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0074_Search_a_2D_Matrix.md)
-## **Matrix**
-* [36. Valid Sudoku [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0036_Valid_Sudoku.md)
-* [48. Rotate Image [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0048_Rotate_Image.md) 🔥
-## **Backtracking**
-* [39. Combination Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0039_Combination_Sum.md)
-* [46. Permutations [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0046_Permutations.md) 🔥
-* [51. N-Queens [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0051_N-Queens.md)
-* [79. Word Search [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0079_Word_Search.md)
+
 ## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 * [37. Sudoku Solver [Hard]](https://leetcode.com/problems/sudoku-solver/)
