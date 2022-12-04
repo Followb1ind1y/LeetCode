@@ -22,11 +22,12 @@
 * [71. Simplify Path [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0071_Simplify_Path.md) 🔥
 * [76. Minimum Window Substring [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0076_Minimum_Window_Substring.md) 🔥
 ## **Linked List**
+* [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md) 
 * [21. Merge Two Sorted Lists [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0021_Merge_Two_Sorted_Lists.md)
 * [23. Merge k Sorted Lists [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0023_Merge_k_Sorted_Lists.md) 🔥
 * [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
 * [206. Reverse Linked List [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0206_Reverse_Linked_List.md) 🔥
-* [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md) 
+* [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md)
 ## **Sorting**
 * [15. 3Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0015_3Sum.md)
 * [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
