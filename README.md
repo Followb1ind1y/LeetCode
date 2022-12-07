@@ -69,7 +69,8 @@
 
 ## **Tree**
 * [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md) 🔥
-* [98. Validate Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0098_Validate_Binary_Search_Tree.md) 🔥
+* [95. Unique Binary Search Trees II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0095_Unique_Binary_Search_Trees_II.md) 🔥
+* [98. Validate Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0098_Validate_Binary_Search_Tree.md)
 
 ## **To-do List**
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
