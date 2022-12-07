@@ -73,6 +73,7 @@
 * [98. Validate Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0098_Validate_Binary_Search_Tree.md)
 
 ## **To-do List**
+* [10. Regular Expression Matching [Hard]](https://leetcode.com/problems/regular-expression-matching/)
 * [25. Reverse Nodes in k-Group [Hard]](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-* [37. Sudoku Solver [Hard]](https://leetcode.com/problems/sudoku-solver/)
 * [44. Wildcard Matching [Hard]](https://leetcode.com/problems/wildcard-matching/)
+* [84. Largest Rectangle in Histogram [Hard]](https://leetcode.com/problems/largest-rectangle-in-histogram/)
