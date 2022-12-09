@@ -26,17 +26,18 @@ Output: [3,9,20,null,null,15,7]
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        return self.BST(root, math.inf, -math.inf)
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+        return self.build_tree(preorder, inorder)
 
-    def BST(self, root, left, right):
-        if root:
-            if root.val < left and root.val > right:
-                return self.BST(root.left, min(left, root.val), right) and self.BST(root.right, left, max(right, root.val))
-            else:
-                return False
+    def build_tree(self, preorder, inorder):
+        if preorder and inorder:
+            i = inorder.index(preorder[0])
+            sub_tree = TreeNode(preorder.pop(0))
+            sub_tree.left = self.build_tree(preorder, inorder[:i])
+            sub_tree.right = self.build_tree(preorder, inorder[i+1:])
+            return sub_tree
         else:
-            return True
+            return None
 ```
 
 
