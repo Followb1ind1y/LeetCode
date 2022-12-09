@@ -50,4 +50,4 @@ class Solution:
 * **空间复杂度：O(n)**
 
 ### **类似问题**
-[LeetCode 106. Construct Binary Tree from Inorder and Postorder Traversal [Medium]](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
+* [LeetCode 106. Construct Binary Tree from Inorder and Postorder Traversal [Medium]](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
