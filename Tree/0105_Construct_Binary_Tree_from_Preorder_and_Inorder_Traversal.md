@@ -20,7 +20,7 @@ Output: [3,9,20,null,null,15,7]
 
 ### **思路**
 * **`preorder` 的排列顺序为从最上面开始 依次从上往下从左到右排列 `inorder` 则以 `node` 为中心 将 `left` `right` 依次排在中心左右 可以根据 `preorder` 从上往下的特性不断选取中心点构建 `node` 并在 `inorder` 中找到中心点 并根据中心点将 `inorder` 分成左右两部分 继续构造 `subtree`**
-
+* **可以用 `list.index(item)` 寻找 `item` 在 `list` 中的具体 `index` 位置**
 
 ### **代码**
 
