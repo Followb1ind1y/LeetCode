@@ -11,9 +11,15 @@ Output: [3,9,20,null,null,15,7]
 
 ### **理解**
 
+<p align="center">
+<img src="img/LeetCode0094_Preorder-from-Inorder-and-Postorder-traversals.jpg" width="500">
+</p>
+
+根据 `preorder` 和 `inorder` 的两个 `list` 还原 `binary tree`
+
 
 ### **思路**
-* ****
+* **`preorder` 的排列顺序为从最上面开始 依次从上往下从左到右排列 `inorder` 则以 `node` 为中心 将 `left` `right` 依次排在中心左右 可以根据 `preorder` 从上往下的特性不断选取中心点构建 `node` 并在 `inorder` 中找到中心点 并根据中心点将 `inorder` 分成左右两部分 继续构造 `subtree`**
 
 
 ### **代码**
@@ -27,20 +33,18 @@ Output: [3,9,20,null,null,15,7]
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        return self.build_tree(preorder, inorder)
-
-    def build_tree(self, preorder, inorder):
         if preorder and inorder:
             i = inorder.index(preorder[0])
             sub_tree = TreeNode(preorder.pop(0))
-            sub_tree.left = self.build_tree(preorder, inorder[:i])
-            sub_tree.right = self.build_tree(preorder, inorder[i+1:])
+            sub_tree.left = self.buildTree(preorder, inorder[:i])
+            sub_tree.right = self.buildTree(preorder, inorder[i+1:])
             return sub_tree
         else:
             return None
+
 ```
 
 
 ### **复杂度分析**
 * **时间复杂度：O(n)**
-* **空间复杂度：O(1)**
+* **空间复杂度：O(n)**
