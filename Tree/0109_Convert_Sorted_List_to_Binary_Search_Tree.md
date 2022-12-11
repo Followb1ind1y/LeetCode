@@ -18,9 +18,9 @@ Explanation: One possible answer is [0,-3,9,-10,null,5], which represents the sh
 
 
 ### **思路**
-* 大致思路为不断寻找中心点 将 `List` 分成左右两部分进行 `Recursion` 因为是 `LinkedList` 所以没法直接找到中心点 所以需要设置 `prev_node`, `center`, `next_node` 三个 `pointer` 分别用来记录头部, 中心和尾部 注意 `pointer `设置为指向头部, 中心和尾部位置 即它们的前一个位置
-* 过程中三个 `pointer` 都从 `head` 开始 `prev_node` 保持不变用来记录初始位置 `next_node` 作为标准不断移动 一次可以移动两个位置 当 `next_node` 成功移动两个位置时 `center` 移动一个位置 直到 `next_node` 到头为止 通过移动一个位置和移动两个位置的差值找到中心点 注意当 `next_node` 最多只能移动一个位置时 `center` 不发生移动
-* 之后只需要根据 `center` 创建 `TreeNode` 并将 分割好的左右两部分: `prev_node` 和 `center.next` 传递下去进行 `Recursion`
+* **大致思路为不断寻找中心点 将 `List` 分成左右两部分进行 `Recursion` 因为是 `LinkedList` 所以没法直接找到中心点 所以需要设置 `prev_node`, `center`, `next_node` 三个 `pointer` 分别用来记录头部, 中心和尾部 注意 `pointer `设置为指向头部, 中心和尾部位置 即它们的前一个位置**
+* **过程中三个 `pointer` 都从 `head` 开始 `prev_node` 保持不变用来记录初始位置 `next_node` 作为标准不断移动 一次可以移动两个位置 当 `next_node` 成功移动两个位置时 `center` 移动一个位置 直到 `next_node` 到头为止 通过移动一个位置和移动两个位置的差值找到中心点 注意当 `next_node` 最多只能移动一个位置时 `center` 不发生移动**
+* **之后只需要根据 `center` 创建 `TreeNode` 并将 分割好的左右两部分: `prev_node` 和 `center.next` 传递下去进行 `Recursion`**
 
 ### **代码**
 
