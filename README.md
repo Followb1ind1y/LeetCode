@@ -37,7 +37,7 @@
 * [45. Jump Game II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0045_Jump_Game_II.md)
 * [62. Unique Paths [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0062_Unique_Paths.md) 🔥
 * [91. Decode Ways [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0091_Decode_Ways.md) 🔥
-* [122. Best Time to Buy and Sell Stock II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0122_Best_Time_to_Buy_and_Sell_Stock_II.md) 🔥
+* [122. Best Time to Buy and Sell Stock II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Dynamic_Programming/0122_Best_Time_to_Buy_and_Sell_Stock_II.md)
 
 ## **Linked List**
 * [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md)
