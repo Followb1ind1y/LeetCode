@@ -74,7 +74,8 @@
 * [98. Validate Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0098_Validate_Binary_Search_Tree.md)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.md)
 * [109. Convert Sorted List to Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0109_Convert_Sorted_List_to_Binary_Search_Tree.md) 🔥
-* [114. Flatten Binary Tree to Linked List [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0114_Flatten_Binary_Tree_to_Linked_List.md) 
+* [114. Flatten Binary Tree to Linked List [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0114_Flatten_Binary_Tree_to_Linked_List.md)
+* [116. Populating Next Right Pointers in Each Node [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0116_Populating_Next_Right_Pointers_in_Each_Node.md) 
 
 ## **To-do List**
 * [10. Regular Expression Matching [Hard]](https://leetcode.com/problems/regular-expression-matching/)

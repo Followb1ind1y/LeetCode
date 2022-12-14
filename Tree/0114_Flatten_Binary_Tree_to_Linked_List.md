@@ -16,10 +16,10 @@ Output: [1,null,2,null,3,null,4,null,5,null,6]
 将一颗 `Binary Tree` 转换为 `LinkedList` 即将 `Binary Tree` 的 `left node` 按照 `pre-order traversal` 移到右侧 并将左边设为 `Null`
 
 ### **思路**
-* **先讲左右两个 `subtree` 作 `flatten` 然后寻找到左侧 `flatten` 好的 `subtree` 的最底部的 `node` 将 这个 `node` 和 右边的 `subtree` 的头部作连接 之后只需交换左右 `subtree` 位置 并将左侧设为 `Null`**
+* **先将左右两个 `subtree` 作 `flatten` 然后寻找到左侧 `flatten` 好的 `subtree` 的最底部的 `node` 将 这个 `node` 和 右边的 `subtree` 的头部作连接 之后只需交换左右 `subtree` 位置 并将左侧设为 `Null`**
 
 ### **代码**
-s
+
 ``` python
 # Definition for a binary tree node.
 # class TreeNode:
