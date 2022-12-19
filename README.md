@@ -68,6 +68,7 @@
 * [68. Text Justification [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0068_Text_Justification.md)
 * [71. Simplify Path [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0071_Simplify_Path.md) 🔥
 * [76. Minimum Window Substring [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0076_Minimum_Window_Substring.md) 🔥
+* [139. Word Break [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0139_Word_Break.md)
 
 ## **Tree**
 * [94. Binary Tree Inorder Traversal [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0094_Binary_Tree_Inorder_Traversal.md) 🔥
