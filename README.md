@@ -51,6 +51,7 @@
 * [24. Swap Nodes in Pairs [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0024_Swap_Nodes_in_Pairs.md)
 * [86. Partition List [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0086_Partition_List.md)
 * [143. Reorder List [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0143_Reorder_List.md)
+* [146. LRU Cache [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0146_LRU_Cache.md) 🔥
 * [206. Reverse Linked List [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0206_Reverse_Linked_List.md) 🔥
 * [445. Add Two Numbers II [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0445_Add_Two_Numbers_II.md)
 
