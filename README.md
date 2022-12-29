@@ -90,6 +90,5 @@
 * [44. Wildcard Matching [Hard]](https://leetcode.com/problems/wildcard-matching/)
 * [84. Largest Rectangle in Histogram [Hard]](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 * [115. Distinct Subsequences [Hard]](https://leetcode.com/problems/distinct-subsequences/)
-* [124. Binary Tree Maximum Path Sum [Hard]](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * [126. Word Ladder II [Hard]](https://leetcode.com/problems/word-ladder-ii/)
 * [132. Palindrome Partitioning II [Hard]](https://leetcode.com/problems/palindrome-partitioning-ii/)
