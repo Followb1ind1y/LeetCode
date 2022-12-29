@@ -42,6 +42,7 @@
 
 ## **Graph**
 * [133. Clone Graph [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Graph/0133_Clone_Graph.md)
+* [138. Copy List with Random Pointer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Graph/0138_Copy_List_with_Random_Pointer.md)
 
 ## **Linked List**
 * [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md)
@@ -91,4 +92,3 @@
 * [124. Binary Tree Maximum Path Sum [Hard]](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * [126. Word Ladder II [Hard]](https://leetcode.com/problems/word-ladder-ii/)
 * [132. Palindrome Partitioning II [Hard]](https://leetcode.com/problems/palindrome-partitioning-ii/)
-* [138. Copy List with Random Pointer [Medium]](https://leetcode.com/problems/copy-list-with-random-pointer/)
