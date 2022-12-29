@@ -82,6 +82,7 @@
 * [109. Convert Sorted List to Binary Search Tree [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0109_Convert_Sorted_List_to_Binary_Search_Tree.md) 🔥
 * [114. Flatten Binary Tree to Linked List [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0114_Flatten_Binary_Tree_to_Linked_List.md)
 * [116. Populating Next Right Pointers in Each Node [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0116_Populating_Next_Right_Pointers_in_Each_Node.md)
+* [124. Binary Tree Maximum Path Sum [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Tree/0124_Binary_Tree_Maximum_Path_Sum.md) 🔥
 
 ## **To-do List**
 * [10. Regular Expression Matching [Hard]](https://leetcode.com/problems/regular-expression-matching/)
