@@ -23,10 +23,10 @@ Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
 ```
 
 ### **理解**
-
+将一个 `LinkedList` 进行 `deep copy` 和普通的 `LinkedList` 相比 这个 `LinkedList` 多了一个 `random` 可以指向任意一个 `List Node`
 
 ### **思路**
-* ****
+* **将原来的 `LinkedList` 的地址储存在 `hashmap` 中 最好不要储存为 `int` 因为有可能出现重复 `deep copy` 后的新的 `Node` 作为 `value` 之后依次复制生成新的 `LinkedList`**
 
 
 ### **代码**
