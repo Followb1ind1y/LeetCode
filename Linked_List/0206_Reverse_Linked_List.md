@@ -44,3 +44,4 @@ class Solution:
 
 ### **类似问题**
 * [LeetCode 92. Reverse Linked List II [Medium]](https://leetcode.com/problems/reverse-linked-list-ii/)
+* [LeetCode 147. Insertion Sort List [Medium]](https://leetcode.com/problems/insertion-sort-list/)
