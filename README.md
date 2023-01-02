@@ -17,6 +17,7 @@
 * [31. Next Permutation [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0031_Next_Permutation.md) 🔥
 * [42. Trapping Rain Water [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0042_Trapping_Rain_Water.md)
 * [134. Gas Station [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0134_Gas_Station.md)
+* [150. Evaluate Reverse Polish Notation [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0150_Evaluate_Reverse_Polish_Notation.md)
 
 ## **Backtracking**
 * [39. Combination Sum [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Backtracking/0039_Combination_Sum.md)
