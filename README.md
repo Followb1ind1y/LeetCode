@@ -58,6 +58,7 @@
 
 ## **Math**
 * [7. Reverse Integer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0007_Reverse_Integer.md)
+* [149. Max Points on a Line [Hard]](https://github.com/Followb1ind1y/LeetCode/blob/main/Math/0149_Max_Points_on_a_Line.md)
 
 ## **Matrix**
 * [36. Valid Sudoku [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Matrix/0036_Valid_Sudoku.md)
