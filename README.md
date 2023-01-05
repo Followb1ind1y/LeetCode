@@ -48,6 +48,19 @@
 </details>
 
 <details>
+  <summary>Sort</summary>
+
+``` python
+nums = [5, 4, 3, 2, 1]
+nums.sort() # -> [1, 2, 3, 4, 5]
+strings = ['Ford', 'BMW', 'Volvo']
+strings.sort(key=lambda x: len(x) ) # -> ['BMW', 'Ford', 'Volvo']
+lists = [[4,3], [5,5], [1,3]]
+lists.sort(key=lambda x: x[0]) # -> [[1, 3], [4, 3], [5, 5]]
+```
+</details>
+
+<details>
   <summary>Strings</summary>
 
 ``` python
