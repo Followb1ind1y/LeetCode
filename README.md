@@ -93,7 +93,8 @@ d.items() # dict_items([('yellow', [1, 3]), ('blue', [2, 4]), ('red', [1])])
 ``` python
 from collections import OrderedDict
 
-hashmap = collections.OrderedDict.fromkeys("hello") # OrderedDict([('h', None), ('e', None), ('l', None), ('o', None)])
+hashmap = collections.OrderedDict.fromkeys("hello") 
+# OrderedDict([('h', None), ('e', None), ('l', None), ('o', None)])
 hashmap.popitem(last=True) # Returned in LIFO order if last is True -> ('o', None)
 hashmap.popitem(last=False) # Returned in FIFO order if last is False -> ('h', None)
 ```
