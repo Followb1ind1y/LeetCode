@@ -48,6 +48,18 @@
 </details>
 
 <details>
+  <summary>Strings</summary>
+
+``` python
+(ord("A"), ord("Z"), ord("a"), ord("z")) # (65, 90, 97, 122)
+(chr(65), chr(90), chr(97), chr(122)) # ('A', 'Z', 'a', 'z')
+"H/e/l/l/o".split("/") # ['H', 'e', 'l', 'l', 'o']
+"/".join(['H', 'e', 'l', 'l', 'o']) # H/e/l/l/o
+("a".upper(), "A".lower()) # ('A', 'a')
+```
+</details>
+
+<details>
   <summary>Collections</summary>
 
 * **collections.Counter()**
