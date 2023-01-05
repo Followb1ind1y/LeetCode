@@ -71,6 +71,7 @@ deq.pop() # -> 6
 * **collections.defaultdict()**
 ``` python
 from collections import defaultdict
+
 s = 'mississippi'
 d = collections.defaultdict(int) # defaultdict(int, {})
 for k in s:
@@ -81,6 +82,7 @@ d.items() # dict_items([('m', 1), ('i', 4), ('s', 4), ('p', 2)])
 
 ``` python
 from collections import defaultdict
+
 s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
 d = collections.defaultdict(list) # defaultdict(list, {})
 for k, v in s:
