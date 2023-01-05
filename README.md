@@ -135,6 +135,28 @@ hashmap.popitem(last=False) # Returned in FIFO order if last is False -> ('h', N
 </p>
 </details>
 
+<details>
+  <summary>Algorithms</summary>
+
+* **Binary Search**
+``` python
+# Runtime complexity : O(log n)
+def binary_search(self, nums: List[int], target: int) -> int:
+    left, right = 0, len(nums) - 1
+    
+    while(left <= right):
+        center = (left + right) // 2
+        if nums[center] == target:
+            return center
+        elif nums[center] < target:
+            left = center + 1
+        else:
+            right = center - 1
+    
+    return -1
+```
+</details>
+
 ## **Array**
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
 * [31. Next Permutation [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0031_Next_Permutation.md) 🔥
