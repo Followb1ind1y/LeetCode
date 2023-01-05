@@ -141,6 +141,7 @@ hashmap.popitem(last=False) # Returned in FIFO order if last is False -> ('h', N
 * **Binary Search**
 ``` python
 # Runtime complexity : O(log n)
+
 def binary_search(self, nums: List[int], target: int) -> int:
     left, right = 0, len(nums) - 1
     
