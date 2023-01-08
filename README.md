@@ -174,6 +174,7 @@ def binary_search(self, nums: List[int], target: int) -> int:
 ## **Binary Search**
 * [33. Search in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0033_Search_in_Rotated_Sorted_Array.md) 🔥
 * [74. Search a 2D Matrix [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0074_Search_a_2D_Matrix.md)
+* [153. Find Minimum in Rotated Sorted Array [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Binary_Search/0153_Find_Minimum_in_Rotated_Sorted_Array.md)
 
 ## **Bit Manipulation**
 * [89. Gray Code [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Bit_Manipulation/0089_Gray_Code.md)
