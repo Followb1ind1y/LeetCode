@@ -217,6 +217,7 @@ def binary_search(self, nums: List[int], target: int) -> int:
 * [16. 3Sum Closest [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0016_3Sum_Closest.md)
 * [56. Merge Intervals [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0056_Merge_Intervals.md) 🔥
 * [75. Sort Colors [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0075_Sort_Colors.md) 🔥
+* [169. Majority Element [Easy]](https://github.com/Followb1ind1y/LeetCode/blob/main/Sorting/0169_Majority_Element.md)
 
 ## **String**
 * [3. Longest Substring Without Repeating Characters [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/String/0003_Longest_Substring_Without_Repeating_Characters.md)
