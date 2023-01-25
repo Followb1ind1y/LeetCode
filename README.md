@@ -191,6 +191,7 @@ def binary_search(self, nums: List[int], target: int) -> int:
 ## **Graph**
 * [133. Clone Graph [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Graph/0133_Clone_Graph.md)
 * [138. Copy List with Random Pointer [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Graph/0138_Copy_List_with_Random_Pointer.md)
+* [207. Course Schedule [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Graph/0207_Course_Schedule.md)
 
 ## **Linked List**
 * [2. Add Two Numbers [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Linked_List/0002_Add_Two_Numbers.md)
