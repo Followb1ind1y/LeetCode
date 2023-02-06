@@ -14,41 +14,51 @@
 ## Cheet Sheet
 
 <details>
-  <summary>Python Arithmetic Operators</summary>
-<div class="heatMap">
+<summary>Numbers</summary>
 
-| Operator | Example |  Meaning |
-| --- | --- | --- |
-| `+` | 3 + 2 = 5 | Addition |
-| `-` |	3 - 2 = 1 | Subtraction |
-| `*` |	3 * 2 = 6 |	Multiplication |
-| `/` |	3 / 2 = 1.5 | Division |
-| `%` |	3 % 2 = 1 | Modulus |
-| `**` | 3 ** 2 = 9 | Exponentiation |
-| `//` | 5 // 2 = 2 | Floor division |
-| `math.sqrt()` | math.sqrt(4) = 2 | Square root |
-| `math.inf` | x = math.inf | Infinity |
-</div>
+  * **Python Arithmetic Operators**
+
+  | Operator | Example |  Meaning |
+  | --- | --- | --- |
+  | `+` | 3 + 2 = 5 | Addition |
+  | `-` |	3 - 2 = 1 | Subtraction |
+  | `*` |	3 * 2 = 6 |	Multiplication |
+  | `/` |	3 / 2 = 1.5 | Division |
+  | `%` |	3 % 2 = 1 | Modulus |
+  | `**` | 3 ** 2 = 9 | Exponentiation |
+  | `//` | 5 // 2 = 2 | Floor division |
+  | `math.sqrt()` | math.sqrt(4) = 2 | Square root |
+  | `math.inf` | x = math.inf | Infinity |
+
+  * **Python Bitwise Operators**
+
+  | Operator | Example |  Meaning |
+  | --- | --- | --- |
+  | `&` | a & b | Bitwise AND |
+  | `｜` |	a ｜ b |	Bitwise OR |
+  | `^` |	a ^ b |	Bitwise XOR (exclusive OR) |
+  | `~` |	~a |	Bitwise NOT |
+  | `<<` |	a << n |	Bitwise left shift |
+  | `>>` |	a >> n |	Bitwise right shift |
+
 </details>
 
 <details>
-  <summary>Python Bitwise Operators</summary>
-<div class="heatMap">
+<summary>List</summary>
 
-| Operator | Example |  Meaning |
-| --- | --- | --- |
-| `&` | a & b | Bitwise AND |
-| `｜` |	a ｜ b |	Bitwise OR |
-| `^` |	a ^ b |	Bitwise XOR (exclusive OR) |
-| `~` |	~a |	Bitwise NOT |
-| `<<` |	a << n |	Bitwise left shift |
-| `>>` |	a >> n |	Bitwise right shift |
-
-</div>
-</details>
-
-<details>
-  <summary>Sort</summary>
+```python
+List1 = [i for i in range(5)] # initialize list -> [0, 1, 2, 3, 4]
+List2 = [0] * 5 # initialize list with 5 0's -> [0, 0, 0, 0, 0]
+List1.append(-1) # -> [0, 1, 2, 3, 4, -1]
+List1.sort() # -> [-1, 0, 1, 2, 3, 4]
+List1.reverse() #-> [4, 3, 2, 1, 0, -1]
+List3 = List1 + List2 # -> [4, 3, 2, 1, 0, -1, 0, 0, 0, 0, 0]
+len(List3) # -> 11
+List3.insert(11, 100) # -> [4, 3, 2, 1, 0, -1, 0, 0, 0, 0, 0, 100]
+List3.pop() # -> [4, 3, 2, 1, 0, -1, 0, 0, 0, 0, 0]
+List3.pop(1) # -> [4, 2, 1, 0, -1, 0, 0, 0, 0, 0]
+List3.index(1) # -> 2
+```
 
 ``` python
 nums = [5, 4, 3, 2, 1]
@@ -57,6 +67,23 @@ strings = ['Ford', 'BMW', 'Volvo']
 strings.sort(key=lambda x: len(x) ) # -> ['BMW', 'Ford', 'Volvo']
 lists = [[4,3], [5,5], [1,3]]
 lists.sort(key=lambda x: x[0]) # -> [[1, 3], [4, 3], [5, 5]]
+```
+</details>
+
+<details>
+<summary>Dictionary</summary>
+
+```python
+d = {'key1': 'value1'} # Declare dict{'key1': 'value1'}
+d['key2'] = 'value2' # Add Key and Value -> {'key1': 'value1', 'key2': 'value2'}
+d['key1'] # Access value -> 'value1'
+d.keys() # -> dict_keys(['key1', 'key2'])
+d.values() # -> dict_values(['value1', 'value2'])
+d.items() # -> dict_items([('key1', 'value1'), ('key2', 'value2')])
+for k,v in d.items(): 
+    print(k, v) # key1 value1 key2 value2
+d.pop('key1') # -> 'value1'
+d # -> {'key2': 'value2'}
 ```
 </details>
 
@@ -129,10 +156,99 @@ hashmap.popitem(last=False) # Returned in FIFO order if last is False -> ('h', N
 </details>
 
 <details>
+<summary>Stack</summary>
+
+A **Stack** is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
+
+* ` push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+* `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
+
+<center><img src="https://drive.google.com/uc?export=view&id=12cKEW2XKl7tfO5ZH4FZ9-4TlFh3ST7ek" width=450px /></center>
+
+```python
+stack = []
+
+stack.append('a') # append() function to push
+stack.append('b') # element in the stack
+stack.append('c') # -> ['a', 'b', 'c']
+
+stack.pop() # -> 'c'
+stack # -> ['a', 'b']
+```
+
+</details>
+
+<details>
+<summary>Queue</summary>
+
+**Queue** is a linear data structure that stores items in **First In First Out (FIFO)** manner. With a queue the least recently added item is removed first. 
+
+* `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : O(1)
+* `Dequeue`: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition – Time Complexity : O(1)
+
+<center><img src="https://drive.google.com/uc?export=view&id=1QAw5MSmH_1DzY2wSKte6bLVKmWyUN0xF" width=450px /></center>
+
+```python
+queue = []
+
+queue.append('a') # append() function to push
+queue.append('b') # element in the stack
+queue.append('c') # -> ['a', 'b', 'c']
+
+queue.pop(0) # -> 'a'
+queue # -> ['b', 'c']
+```
+* **Queue using Deque**
+
+```python
+from collections import deque
+
+queue = deque(["Ram", "Tarun", "Asif", "John"])
+queue.append("Akbar") # -> deque(['Ram', 'Tarun', 'Asif', 'John', 'Akbar'])
+queue.popleft() # -> 'Ram'
+queue # -> deque(['Tarun', 'Asif', 'John', 'Akbar'])                         
+```
+</details>
+
+<details>
+<summary>Deque</summary>
+
+**Deque** or **Double Ended Queue** is a type of queue in which insertion and removal of elements can either be performed from the front or the rear. Thus, it does not follow FIFO rule (First In First Out).
+
+<center><img src="https://drive.google.com/uc?export=view&id=1tnjr9gTLRVcQ0d1tnMEMuXQYOwMqlTWw" width=450px /></center>
+
+``` python
+from collections import deque
+
+deq = collections.deque([1, 2, 3]) # deque([1, 2, 3])
+deq.appendleft(5) # deque([5, 1, 2, 3])
+deq.append(6) # deque([5, 1, 2, 3, 6])
+deq.popleft() # -> 5
+deq.pop() # -> 6
+```
+
+
+</details>
+
+<details>
   <summary>Binary Tree</summary>
 <p align="center">
 <img src="Tree/img/LeetCode0094_Preorder-from-Inorder-and-Postorder-traversals.jpg" width="500">
 </p>
+</details>
+
+<details>
+  <summary>Graph</summary>
+
+``` python
+N = 6
+edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
+graph = [[] for _ in range(N)]
+for u,v in edges:
+    graph[u].append(v)
+    graph[v].append(u)
+graph # -> [[1, 2], [0], [0, 3, 4, 5], [2], [2], [2]]
+```
 </details>
 
 <details>
