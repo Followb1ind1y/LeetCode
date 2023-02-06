@@ -160,7 +160,7 @@ hashmap.popitem(last=False) # Returned in FIFO order if last is False -> ('h', N
 
 A **Stack** is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
 
-* ` push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+* `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
 * `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
 
 <center><img src="https://drive.google.com/uc?export=view&id=12cKEW2XKl7tfO5ZH4FZ9-4TlFh3ST7ek" width=450px /></center>
