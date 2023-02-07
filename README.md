@@ -12,7 +12,9 @@
 
 # **LeetCode Problems' Solutions**
 ## Cheet Sheet
-
+<table>
+<tr><th>Table of Contents </th>
+<tr><td>
 <details>
 <summary>Numbers</summary>
 
@@ -273,6 +275,8 @@ def binary_search(self, nums: List[int], target: int) -> int:
     return -1
 ```
 </details>
+
+</table>
 
 ## **Array**
 * [11. Container With Most Water [Medium]](https://github.com/Followb1ind1y/LeetCode/blob/main/Array/0011_Container_With_Most_Water.md)
