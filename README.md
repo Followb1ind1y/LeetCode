@@ -10,6 +10,100 @@
 <a href="https://githubtocolab.com/Followb1ind1y/LeetCode"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab"/></a>       
 </p>
 
+# Machine Learning Engineer Interview Preparation Plan
+
+## Basic Data Structures
+### Study:
+- **Arrays and Strings**: Understand how to manipulate arrays (e.g., resizing, iterating, filtering) and basic operations on strings (e.g., substring, concatenation, palindrome checking).
+- **Linked Lists**: Learn the structure of single and doubly linked lists, and common operations such as insertion, deletion, searching, and reversing.
+- **Stacks and Queues**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
+
+### Notes:
+-
+
+### Practice:
+- [ ] Arrays and Strings:
+  - [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)
+  - [Valid Palindrome - LeetCode 125](https://leetcode.com/problems/valid-palindrome/)
+- [ ] Linked Lists:
+  - [Reverse Linked List - LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
+  - [Linked List Cycle - LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
+- [ ] Stacks and Queues:
+  - [Valid Parentheses - LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
+  - [Implement Queue using Stacks - LeetCode 232](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+## Advanced Data Structures
+### Study:
+- **Trees**: Explore the concepts of binary trees, binary search trees, AVL trees, and tree traversals (in-order, pre-order, post-order, level-order).
+- **Graphs**: Learn about different graph representations (adjacency list, adjacency matrix), and traversal algorithms (Depth-First Search, Breadth-First Search) to solve problems like finding connected components or checking cycles.
+- **Hash Tables**: Study how hash tables work, including hashing functions, handling collisions, and applications in tasks like item counting or implementing dictionaries.
+
+### Notes:
+-
+
+### Practice:
+- [ ] Trees:
+  - [Binary Tree Inorder Traversal - LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+  - [Lowest Common Ancestor of a Binary Search Tree - LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+- [ ] Graphs:
+  - [Number of Islands - LeetCode 200](https://leetcode.com/problems/number-of-islands/)
+  - [Course Schedule - LeetCode 207](https://leetcode.com/problems/course-schedule/)
+- [ ] Hash Tables:
+  - [Group Anagrams - LeetCode 49](https://leetcode.com/problems/group-anagrams/)
+  - [Longest Consecutive Sequence - LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+## Core Algorithms
+### Study:
+- **Sorting Algorithms**: Review the mechanisms and use cases for quicksort, mergesort, and heapsort. Understand the trade-offs in terms of time and space complexity.
+- **Search Algorithms**: Study binary search on sorted arrays, and learn about its variations for finding the first or last position of an element.
+- **Recursion and Backtracking**: Understand how to apply recursion for solving problems involving permutations, combinations, and other backtrack-required scenarios. Study the call stack mechanism and how to optimize recursion through memoization.
+
+### Notes:
+-
+
+### Practice:
+- [ ] Sorting and Searching:
+  - [Sort Colors - LeetCode 75](https://leetcode.com/problems/sort-colors/)
+  - [Search in Rotated Sorted Array - LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [ ] Recursion and Backtracking:
+  - [Permutations - LeetCode 46](https://leetcode.com/problems/permutations/)
+  - [N-Queens - LeetCode 51](https://leetcode.com/problems/n-queens/)
+
+## Advanced Algorithms
+### Study:
+- **Dynamic Programming**: Explore the methodology of solving problems by breaking them down into smaller subproblems, storing results, and combining them to solve larger problems. Focus on understanding the concepts of overlapping subproblems and optimal substructure.
+- **Greedy Algorithms**: Learn how greedy choices can lead to globally optimized solutions and their applications in problems like scheduling, graph based problems (like minimum spanning trees), and currency denomination.
+- **Graph Algorithms**: Study shortest path algorithms (Dijkstra’s, Bellman-Ford) and minimum spanning tree algorithms (Prim’s, Kruskal’s). Understand their use cases and limitations.
+
+### Notes:
+-
+
+### Practice:
+- [ ] Dynamic Programming:
+  - [Coin Change - LeetCode 322](https://leetcode.com/problems/coin-change/)
+  - [Longest Increasing Subsequence - LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [ ] Graph Algorithms:
+  - [Network Delay Time (Dijkstra's Algorithm) - LeetCode 743](https://leetcode.com/problems/network-delay-time/)
+
+## Special Topics Relevant to Machine Learning
+### Study:
+- **Geometric Algorithms**: Explore algorithms for computational geometry problems, such as finding the closest pair of points, checking point inclusion in a polygon, or computing the convex hull of a set of points.
+- **Probabilistic Algorithms and Heuristics**: Learn about algorithms that incorporate randomness and probability, such as Monte Carlo methods and randomized optimization algorithms.
+- **Advanced Data Structures for ML**: Dive into understanding more complex data structures like segment trees for range queries, Fenwick trees for cumulative frequency tables, and how they can be applied in machine learning contexts.
+
+### Notes:
+-
+
+### Practice:
+- [ ] Geometric and Probabilistic Algorithms:
+  - [Max Points on a Line - LeetCode 149](https://leetcode.com/problems/max-points-on-a-line/)
+  - [Linked List Random Node - LeetCode 382](https://leetcode.com/problems/linked-list-random-node/)
+- [ ] Advanced Data Structures:
+  - [Range Sum Query - Mutable (Segment Tree) - LeetCode 307](https://leetcode.com/problems/range-sum-query-mutable/)
+
+
+<------------------------------------------------------------------------------------------------->
+
 # **LeetCode Problems' Solutions**
 ## Cheet Sheet
 <details>
