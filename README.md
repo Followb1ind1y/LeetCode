@@ -19,7 +19,62 @@
 - **Stacks and Queues**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
 
 ### Notes:
--
+- **Arrays:**
+In Python, arrays are typically represented using lists. While Python doesn't have a native array type as seen in other languages like Java or C++, lists are versatile and can be used similarly to arrays. 
+```
+arr = []          # O(1)
+arr = [1, 2, 3]   # O(n), where n is the number of elements
+first_element = arr[0]  # O(1)
+arr[1] = 10  # O(1)
+arr.append(6)  # O(1) on average for appending
+arr.insert(2, 15)  # O(n), where n is the number of elements after the insertion index
+arr.remove(15)  # O(n), where n is the number of elements in the list
+del arr[2]  # O(n), where n is the number of elements after the deleted index
+last_element = arr.pop()  # O(1)
+```
+- **Strings:**
+Strings in Python are immutable sequences of characters. You can perform various operations on strings using built-in methods and operators.
+```
+s = "Hello, World!"  # O(n), where n is the length of the string
+first_char = s[0]  # O(1)
+substring = s[7:12]  # O(k), where k is the length of the substring
+combined = s + " Python"  # O(n + m), where n and m are the lengths of the two strings
+repeated = s * 2  # O(n * k), where k is the number of repetitions
+
+upper_s = s.upper()  # O(n), where n is the length of the string
+lower_s = s.lower()  # O(n), where n is the length of the string
+starts_with_hello = s.startswith("Hello")  # O(n), where n is the length of the prefix
+contains_world = "World" in s  # O(n * m), where n is the length of the string and m is the length of the substring
+replaced_s = s.replace("World", "Python")  # O(n * m), where n is the length of the string and m is the length of the substring
+
+words = s.split(", ")  # O(n), where n is the length of the string
+joined = " - ".join(words)  # O(n), where n is the total length of the resulting string
+```
+```
+## Reverse an Array
+def reverse_array(arr):
+    return arr[::-1]  # O(n), where n is the length of the list
+
+print(reverse_array([1, 2, 3, 4]))  # [4, 3, 2, 1]
+```
+```
+## Check for Palindrome String
+def is_palindrome(s):
+    return s == s[::-1]  # O(n), where n is the length of the string
+
+print(is_palindrome("radar"))  # True
+print(is_palindrome("hello"))  # False
+```
+```
+## Find the Most Frequent Element in an Array
+from collections import Counter
+
+def most_frequent_element(arr):
+    return Counter(arr).most_common(1)[0][0]  # O(n), where n is the length of the list
+
+print(most_frequent_element([1, 2, 2, 3, 3, 3]))  # 3
+
+```
 
 ### Practice:
 - [ ] Arrays and Strings:
