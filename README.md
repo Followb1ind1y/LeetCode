@@ -21,6 +21,7 @@
 ### Notes:
 - **Arrays:**
 In Python, arrays are typically represented using lists. While Python doesn't have a native array type as seen in other languages like Java or C++, lists are versatile and can be used similarly to arrays. 
+[`Last Update: 2024-08-14`]
 ```
 arr = []          # O(1)
 arr = [1, 2, 3]   # O(n), where n is the number of elements
@@ -28,12 +29,13 @@ first_element = arr[0]  # O(1)
 arr[1] = 10  # O(1)
 arr.append(6)  # O(1) on average for appending
 arr.insert(2, 15)  # O(n), where n is the number of elements after the insertion index
-arr.remove(15)  # O(n), where n is the number of elements in the list
+arr.remove(15)  # O(n), where n is the number of elements in the list [remove the first 15 in the array]
 del arr[2]  # O(n), where n is the number of elements after the deleted index
 last_element = arr.pop()  # O(1)
 ```
 - **Strings:**
 Strings in Python are immutable sequences of characters. You can perform various operations on strings using built-in methods and operators.
+[`Last Update: 2024-08-14`]
 ```
 s = "Hello, World!"  # O(n), where n is the length of the string
 first_char = s[0]  # O(1)
@@ -73,7 +75,17 @@ def most_frequent_element(arr):
     return Counter(arr).most_common(1)[0][0]  # O(n), where n is the length of the list
 
 print(most_frequent_element([1, 2, 2, 3, 3, 3]))  # 3
+```
 
+```
+## Counting occurrences of items
+from collections import Counter
+
+items = ['apple', 'banana', 'apple', 'orange', 'banana']
+count = Counter(items)  # Counter({'apple': 2, 'banana': 2, 'orange': 1})
+
+# Accessing counts
+apple_count = count['apple']  # 2
 ```
 
 ### Practice:
@@ -94,7 +106,27 @@ print(most_frequent_element([1, 2, 2, 3, 3, 3]))  # 3
 - **Hash Tables**: Study how hash tables work, including hashing functions, handling collisions, and applications in tasks like item counting or implementing dictionaries.
 
 ### Notes:
--
+- **Hash Tables**:
+In Python, the built-in dict type (short for dictionary) functions as a hash table. Hash tables are a key data structure used for efficient data retrieval and storage, providing average time complexities of O(1) for insertion, deletion, and lookup operations due to their underlying hashing mechanism.
+[`Last Update: 2024-11-06`]
+
+```
+my_dict = {}  # Creating an empty dictionary
+my_dict = {'key1': 'value1', 'key2': 'value2'}  # Creating a dictionary with initial values
+value = my_dict['key1']   # Accessing a value by key
+my_dict['key3'] = 'value3'  # Adding a new key-value pair
+my_dict['key2'] = 'new_value2'  # Updating an existing key-value pair
+del my_dict['key1']   # Removing an entry by key
+value = my_dict.pop('key2')  # Popping an entry (removes and returns the value)
+exists = 'key3' in my_dict  # # Checking if a key is in the dictionary [True]
+
+for key in my_dict:
+    print(key, my_dict[key]) # Iterating through keys
+for key, value in my_dict.items(): # Iterating through key-value pairs
+    print(key, value)
+for value in my_dict.values(): # Iterating through values
+    print(value)
+```
 
 ### Practice:
 - [ ] Trees:
