@@ -21,7 +21,8 @@
 ### Notes:
 - **Arrays:**
 In Python, arrays are typically represented using lists. While Python doesn't have a native array type as seen in other languages like Java or C++, lists are versatile and can be used similarly to arrays. 
-[`Last Update: 2024-08-14`]
+
+【`Last Update: 2024-08-14`】
 ```
 arr = []          # O(1)
 arr = [1, 2, 3]   # O(n), where n is the number of elements
@@ -35,7 +36,8 @@ last_element = arr.pop()  # O(1)
 ```
 - **Strings:**
 Strings in Python are immutable sequences of characters. You can perform various operations on strings using built-in methods and operators.
-[`Last Update: 2024-08-14`]
+
+【`Last Update: 2024-08-14`】
 ```
 s = "Hello, World!"  # O(n), where n is the length of the string
 first_char = s[0]  # O(1)
@@ -108,7 +110,8 @@ apple_count = count['apple']  # 2
 ### Notes:
 - **Hash Tables**:
 In Python, the built-in dict type (short for dictionary) functions as a hash table. Hash tables are a key data structure used for efficient data retrieval and storage, providing average time complexities of O(1) for insertion, deletion, and lookup operations due to their underlying hashing mechanism.
-[`Last Update: 2024-11-06`]
+
+【`Last Update: 2024-11-06`】
 
 ```
 my_dict = {}  # Creating an empty dictionary
@@ -141,12 +144,19 @@ for value in my_dict.values(): # Iterating through values
 
 ## Core Algorithms
 ### Study:
+- **Two Pointer**: The two-pointer technique is used primarily in solving array and linked list problems. It involves using two pointers to traverse the data structure, allowing for efficient searching and processing of elements. 
 - **Sorting Algorithms**: Review the mechanisms and use cases for quicksort, mergesort, and heapsort. Understand the trade-offs in terms of time and space complexity.
 - **Search Algorithms**: Study binary search on sorted arrays, and learn about its variations for finding the first or last position of an element.
 - **Recursion and Backtracking**: Understand how to apply recursion for solving problems involving permutations, combinations, and other backtrack-required scenarios. Study the call stack mechanism and how to optimize recursion through memoization.
 
 ### Notes:
--
+- **Two Pointer**:
+  * Finding Pairs with a Given Sum: When looking for two numbers in a sorted array that add up to a specific target.
+  * Reversing a String or Array: Using two pointers to swap elements from the start and end until they meet in the middle.
+  * Merging Two Sorted Arrays: Traversing both arrays simultaneously to create a new sorted array.
+  * Removing Duplicates from a Sorted Array: Using two pointers to track unique elements.
+
+【`Last Update: 2024-11-07`】
 
 ### Practice:
 - [ ] Sorting and Searching:
@@ -188,6 +198,12 @@ for value in my_dict.values(): # Iterating through values
 - [ ] Advanced Data Structures:
   - [Range Sum Query - Mutable (Segment Tree) - LeetCode 307](https://leetcode.com/problems/range-sum-query-mutable/)
 
+<------------------------------------------------------------------------------------------------->
+## **练习记录**
+* `Date: 2024-11-06`:
+  * [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)【Array】【Hash Table】
+* `Date: 2024-11-07`:
+  * [3 Sum - LeetCode 15](https://leetcode.com/problems/3sum/)【Array】【Two Pointers】
 
 <------------------------------------------------------------------------------------------------->
 
