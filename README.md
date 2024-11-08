@@ -204,7 +204,10 @@ for value in my_dict.values(): # Iterating through values
   * [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)【Array】【Hash Table】
 * `Date: 2024-11-07`:
   * [3 Sum - LeetCode 15](https://leetcode.com/problems/3sum/)【Array】【Two Pointers】
-
+* `Date: 2024-11-08`:
+  * [Best Time to Buy and Sell Stock - LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)【Array】【Dynamic Programming】
+  * [Intersection of Two Arrays - LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/)【Array】【Hash Table】
+  * [Contains Duplicate II - LeetCode 219](https://leetcode.com/problems/contains-duplicate-ii/)【Array】【Hash Table】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
