@@ -131,6 +131,37 @@ for value in my_dict.values(): # Iterating through values
     print(value)
 ```
 
+```
+# defaultdict 使用方法，没见过的元素不会报错。适用于计数、分组和嵌套字典等应用。
+
+from collections import defaultdict
+
+# 使用 int 类型的 defaultdict
+dd = defaultdict(int)
+print(dd['missing_key'])  # 输出：0，因为 int() 的默认值是 0
+print(dd)  # 输出：defaultdict(<class 'int'>, {'missing_key': 0})
+
+# 统计元素出现次数
+data = "abracadabra"
+counter = defaultdict(int)
+for char in data:
+    counter[char] += 1
+print(counter)  # 输出：defaultdict(<class 'int'>, {'a': 5, 'b': 2, 'r': 2, 'c': 1, 'd': 1})
+
+# defaultdict(list)常用于将多个值归类到同一个键下。
+data = [("apple", 1), ("banana", 2), ("apple", 3), ("banana", 4)]
+grouped_data = defaultdict(list)
+for fruit, count in data:
+    grouped_data[fruit].append(count)
+print(grouped_data)  # 输出：defaultdict(<class 'list'>, {'apple': [1, 3], 'banana': [2, 4]})
+
+# 可以使用dict()将defaultdict转换为普通字典。
+dd = defaultdict(int)
+dd['a'] += 1
+print(dict(dd))  # 输出：{'a': 1}
+
+```
+
 ### Practice:
 - [ ] Trees:
   - [Binary Tree Inorder Traversal - LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -208,6 +239,8 @@ for value in my_dict.values(): # Iterating through values
   * [Best Time to Buy and Sell Stock - LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)【Array】【Dynamic Programming】
   * [Intersection of Two Arrays - LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/)【Array】【Hash Table】
   * [Contains Duplicate II - LeetCode 219](https://leetcode.com/problems/contains-duplicate-ii/)【Array】【Hash Table】
+* `Date: 2024-11-10`:
+  * [4Sum II - Leetcode 454](https://leetcode.com/problems/4sum-ii/description/)【Array】【Hash Table】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
