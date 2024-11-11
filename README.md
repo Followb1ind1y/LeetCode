@@ -179,6 +179,7 @@ print(dict(dd))  # 输出：{'a': 1}
 - **Sorting Algorithms**: Review the mechanisms and use cases for quicksort, mergesort, and heapsort. Understand the trade-offs in terms of time and space complexity.
 - **Search Algorithms**: Study binary search on sorted arrays, and learn about its variations for finding the first or last position of an element.
 - **Recursion and Backtracking**: Understand how to apply recursion for solving problems involving permutations, combinations, and other backtrack-required scenarios. Study the call stack mechanism and how to optimize recursion through memoization.
+- **Prefix Sum and Suffix Sum**: Prefix Sum and Suffix Sum are techniques used to compute the sum of elements in a subarray quickly by precomputing cumulative sums.
 
 ### Notes:
 - **Two Pointer**:
@@ -188,6 +189,31 @@ print(dict(dd))  # 输出：{'a': 1}
   * Removing Duplicates from a Sorted Array: Using two pointers to track unique elements.
 
 【`Last Update: 2024-11-07`】
+
+- **Prefix Sum and Suffix Sum**:
+	1.	Prefix Sum: For an array nums, the prefix sum at each index i is the sum of all elements from the start of the array up to i. This allows you to find the sum of any subarray [i, j] in constant time by calculating prefix[j+1] - prefix[i].
+	2.	Suffix Sum: For the same array nums, the suffix sum at index i is the sum of all elements from i to the end of the array. It enables efficient queries for sums of subarrays that start from any index i to a given end by using suffix[i] - suffix[j+1].
+
+```
+## Input [1, 2, 3, 4] -> Output [2x3x4, 1x3x4, 1x2x4, 1x2x3] = [24, 12, 8, 6]
+## Predix -> [0, 1, 1x2, 1x2x3] = [0, 1, 2, 6]
+## Suffix -> [2x3x4, 3x4, 4, 0] = [24, 12, 4, 0]
+
+def productExceptSelf(self, nums: List[int]) -> List[int]:
+  res = [1] * len(nums)
+  prefix, suffix = 1, 1
+
+  for i in range(len(nums)):
+    res[i] = prefix
+    prefix *= nums[i]
+
+  for j in range(len(nums)-1,-1,-1):
+    res[j] *= suffix
+    suffix *= nums[j]
+        
+  return res
+```
+【`Last Update: 2024-11-11`】
 
 ### Practice:
 - [ ] Sorting and Searching:
@@ -232,15 +258,18 @@ print(dict(dd))  # 输出：{'a': 1}
 <------------------------------------------------------------------------------------------------->
 ## **练习记录**
 * `Date: 2024-11-06`:
-  * [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)【Array】【Hash Table】
+  * [LeetCode 1 - Two Sum](https://leetcode.com/problems/two-sum/)【Array】【Hash Table】
 * `Date: 2024-11-07`:
-  * [3 Sum - LeetCode 15](https://leetcode.com/problems/3sum/)【Array】【Two Pointers】
+  * [LeetCode 15 - 3 Sum](https://leetcode.com/problems/3sum/)【Array】【Two Pointers】
 * `Date: 2024-11-08`:
-  * [Best Time to Buy and Sell Stock - LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)【Array】【Dynamic Programming】
-  * [Intersection of Two Arrays - LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/)【Array】【Hash Table】
-  * [Contains Duplicate II - LeetCode 219](https://leetcode.com/problems/contains-duplicate-ii/)【Array】【Hash Table】
+  * [LeetCode 121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)【Array】【Dynamic Programming】
+  * [LeetCode 349 - Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)【Array】【Hash Table】
+  * [LeetCode 219 - Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)【Array】【Hash Table】
 * `Date: 2024-11-10`:
-  * [4Sum II - Leetcode 454](https://leetcode.com/problems/4sum-ii/description/)【Array】【Hash Table】
+  * [Leetcode 454 - 4Sum II](https://leetcode.com/problems/4sum-ii/description/)【Array】【Hash Table】
+* `Date: 2024-11-11`:
+  * [Leetcode 53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)【Array】
+  * [Leetcode 238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description)【Array】【Prefix Sum】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
