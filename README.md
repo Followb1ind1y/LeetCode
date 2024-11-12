@@ -187,6 +187,7 @@ print(dict(dd))  # 输出：{'a': 1}
   * Reversing a String or Array: Using two pointers to swap elements from the start and end until they meet in the middle.
   * Merging Two Sorted Arrays: Traversing both arrays simultaneously to create a new sorted array.
   * Removing Duplicates from a Sorted Array: Using two pointers to track unique elements.
+  * 设置 two pointers 的时候，left 一般会在最前面，但是 right 不一定在最后，可以设置在 left 后面。
 
 【`Last Update: 2024-11-07`】
 
@@ -270,6 +271,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 * `Date: 2024-11-11`:
   * [Leetcode 53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)【Array】
   * [Leetcode 238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description)【Array】【Prefix Sum】
+* `Date: 2024-11-12`:
+  * [Leetcode 344 - Reverse String](https://leetcode.com/problems/reverse-string/description/)【String】【Two Pointers】
+  * [Leetcode 26 - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)【Array】【Two Pointers】
+  * [Leetcode 27 - Remove Element](https://leetcode.com/problems/remove-element/description)【Array】【Two Pointers】
+
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
