@@ -275,7 +275,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 344 - Reverse String](https://leetcode.com/problems/reverse-string/description/)【String】【Two Pointers】
   * [Leetcode 26 - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)【Array】【Two Pointers】
   * [Leetcode 27 - Remove Element](https://leetcode.com/problems/remove-element/description)【Array】【Two Pointers】
-
+* `Date: 2024-11-13`:
+  * [Leetcode 3 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)【String】【Hash Table】
+  * [Leetcode 5 - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)【String】【Two Pointers】
+  * [Leetcode 28 - Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)【String】【Two Pointers】
+  * [Leetcode 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)【String】【Hash Table】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
