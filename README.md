@@ -33,6 +33,40 @@ arr.insert(2, 15)  # O(n), where n is the number of elements after the insertion
 arr.remove(15)  # O(n), where n is the number of elements in the list [remove the first 15 in the array]
 del arr[2]  # O(n), where n is the number of elements after the deleted index
 last_element = arr.pop()  # O(1)
+arr.sort()  # 原地排序
+sorted_arr = sorted(arr)  # 返回排序后的数组
+arr[::-1] # arr 倒序
+```
+```
+## Counter() 的常用语法和使用情况
+from collections import Counter
+arr = [1, 2, 2, 3, 3, 3]
+counts = Counter(arr)  # 结果：Counter({3: 3, 2: 2, 1: 1})
+
+## 找到出现次数最多的元素
+most_common_element = counts.most_common(1)[0]  # 结果：(3, 3)
+
+## 判断出现的元素是否相同
+arr1 = [1, 2, 3]
+arr2 = [3, 2, 1]
+is_anagram = Counter(arr1) == Counter(arr2)  # 结果：True
+```
+```
+## set() 的常用语法和使用情况
+arr = [1, 2, 2, 3, 4, 4]
+
+## 快速查找
+seen = set(arr)
+if 3 in seen:
+    print("3 is in array")
+
+## 去重
+unique_elements = list(set(arr))  # 结果：[1, 2, 3, 4]
+
+## 两个数组的交集
+arr1 = [1, 2, 2, 3]
+arr2 = [2, 3, 4]
+intersection = list(set(arr1) & set(arr2))  # 结果：[2, 3]
 ```
 - **Strings:**
 Strings in Python are immutable sequences of characters. You can perform various operations on strings using built-in methods and operators.
@@ -54,42 +88,50 @@ replaced_s = s.replace("World", "Python")  # O(n * m), where n is the length of 
 words = s.split(", ")  # O(n), where n is the length of the string
 joined = " - ".join(words)  # O(n), where n is the total length of the resulting string
 ```
-```
-## Reverse an Array
-def reverse_array(arr):
-    return arr[::-1]  # O(n), where n is the length of the list
 
-print(reverse_array([1, 2, 3, 4]))  # [4, 3, 2, 1]
-```
-```
-## Check for Palindrome String
-def is_palindrome(s):
-    return s == s[::-1]  # O(n), where n is the length of the string
+- **Linked Lists:**
+A Linked List is a linear data structure consisting of nodes, where each node contains:
 
-print(is_palindrome("radar"))  # True
-print(is_palindrome("hello"))  # False
-```
-```
-## Find the Most Frequent Element in an Array
-from collections import Counter
+  * A data part that stores the actual data.
+  * A next part (or pointer) that points to the next node in the list.
 
-def most_frequent_element(arr):
-    return Counter(arr).most_common(1)[0][0]  # O(n), where n is the length of the list
-
-print(most_frequent_element([1, 2, 2, 3, 3, 3]))  # 3
-```
+【`Last Update: 2024-11-14`】
 
 ```
-## Counting occurrences of items
-from collections import Counter
+## A node in a linked list can be represented as a class
 
-items = ['apple', 'banana', 'apple', 'orange', 'banana']
-count = Counter(items)  # Counter({'apple': 2, 'banana': 2, 'orange': 1})
-
-# Accessing counts
-apple_count = count['apple']  # 2
+class ListNode:
+    def __init__(self, data=0, next=None):
+        self.data = data  # Data of the node
+        self.next = next  # Pointer to the next node
 ```
+```
+##  Inserting Nodes
 
+def insert_at_beginning(head, data):
+    new_node = ListNode(data)  # Create a new node
+    new_node.next = head       # Link the new node to the current head
+    return new_node            # New node becomes the head
+```
+```
+## Deleting Nodes
+
+def delete_from_beginning(head):
+    if not head:
+        return None
+    return head.next  # The second node becomes the new head
+```
+```
+## Searching for a Node
+
+def search(head, key):
+    current = head
+    while current:
+        if current.data == key:
+            return True  # Found the data
+        current = current.next
+    return False  # Data not found
+```
 ### Practice:
 - [ ] Arrays and Strings:
   - [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)
@@ -280,6 +322,8 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 5 - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)【String】【Two Pointers】
   * [Leetcode 28 - Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)【String】【Two Pointers】
   * [Leetcode 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)【String】【Hash Table】
+* `Date: 2024-11-14`:
+  * [Leetcode 206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)【Linked List】【Recursion】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
