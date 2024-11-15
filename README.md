@@ -324,6 +324,12 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 49 - Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)【String】【Hash Table】
 * `Date: 2024-11-14`:
   * [Leetcode 206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)【Linked List】【Recursion】
+* `Date: 2024-11-15`:
+  * [Leetcode 21 - Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)【Linked List】【Recursion】
+  * [Leetcode 141 - Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)【Linked List】【Hash Table】
+  * [Leetcode 203 - Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)【Linked List】【Recursion】
+  * [Leetcode 83 - Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)【Linked List】
+  * [Leetcode 2 - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description)【Linked List】【Recursion】【Math】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
