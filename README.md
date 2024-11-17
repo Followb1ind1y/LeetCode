@@ -330,6 +330,9 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 203 - Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)【Linked List】【Recursion】
   * [Leetcode 83 - Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)【Linked List】
   * [Leetcode 2 - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description)【Linked List】【Recursion】【Math】
+* `Date: 2024-11-17`:
+  * [Leetcode 19 - Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)【Linked List】【Two Pointers】
+  * [Leetcode 138 - Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)【Linked List】【Hash Table】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
