@@ -333,6 +333,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 * `Date: 2024-11-17`:
   * [Leetcode 19 - Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)【Linked List】【Two Pointers】
   * [Leetcode 138 - Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)【Linked List】【Hash Table】
+  * [Leetcode 234 - Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description)【Linked List】
+  * [Leetcode 160 -  Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)【Linked List】【Hash Table】
+* `Date: 2024-11-18`:
+  * [Leetcode 92 - Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)【Linked List】
+  * [Leetcode 61 - Rotate List](https://leetcode.com/problems/rotate-list/description)【Linked List】【Two Pointers】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
