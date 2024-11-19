@@ -16,7 +16,7 @@
 ### Study:
 - **Arrays and Strings**: Understand how to manipulate arrays (e.g., resizing, iterating, filtering) and basic operations on strings (e.g., substring, concatenation, palindrome checking).
 - **Linked Lists**: Learn the structure of single and doubly linked lists, and common operations such as insertion, deletion, searching, and reversing.
-- **Stacks and Queues**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
+- **Stacks, Queues, Deque and Deque**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
 
 ### Notes:
 - **Arrays:**
@@ -132,16 +132,63 @@ def search(head, key):
         current = current.next
     return False  # Data not found
 ```
-### Practice:
-- [ ] Arrays and Strings:
-  - [Two Sum - LeetCode 1](https://leetcode.com/problems/two-sum/)
-  - [Valid Palindrome - LeetCode 125](https://leetcode.com/problems/valid-palindrome/)
-- [ ] Linked Lists:
-  - [Reverse Linked List - LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
-  - [Linked List Cycle - LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
-- [ ] Stacks and Queues:
-  - [Valid Parentheses - LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
-  - [Implement Queue using Stacks - LeetCode 232](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+- **Stack:**
+A **Stack** is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
+
+* `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+* `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
+* `Peek` - View the top element without removing it.
+* `Empty` - Check if the stack is empty.
+
+【`Last Update: 2024-11-19`】
+
+```
+stack = []
+
+# Push elements onto the stack
+stack.append(1)
+stack.append(2)
+
+# Pop element from the stack
+top = stack.pop()  # Removes and returns 2
+
+# Peek the top element
+top = stack[-1] if stack else None  # Returns 1
+
+# Check if the stack is empty
+is_empty = len(stack) == 0
+```
+
+- **Queue:**
+**Queue** is a linear data structure that stores items in **First In First Out (FIFO)** manner. With a queue the least recently added item is removed first. 
+
+* `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : O(1)
+* `Dequeue`: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition – Time Complexity : O(1)
+* `Peek`: View the front element without removing it.
+* `Empty`: Check if the queue is empty.
+
+【`Last Update: 2024-11-19`】
+
+```
+from collections import deque
+
+# Initialize a queue
+queue = deque()
+
+# Enqueue elements
+queue.append(1)
+queue.append(2)
+
+# Dequeue element
+front = queue.popleft()  # Removes and returns 1
+
+# Peek at the front element
+front = queue[0] if queue else None
+
+# Check if the queue is empty
+is_empty = len(queue) == 0
+```
 
 ## Advanced Data Structures
 ### Study:
