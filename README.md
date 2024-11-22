@@ -390,6 +390,9 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 * `Date: 2024-11-21`:
   * [Leetcode 155 - Min Stack](https://leetcode.com/problems/min-stack/description/)【Stack】
   * [Leetcode 682 - Baseball Game](https://leetcode.com/problems/baseball-game/description/)【Stack】
+* `Date: 2024-11-22`:
+  * [Leetcode 739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)【Stack】【Monotonic Stack】
+  * [Leetcode 232 - Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)【Stack】【Queue】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
