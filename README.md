@@ -134,12 +134,12 @@ def search(head, key):
 ```
 
 - **Stack:**
-A **Stack** is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
+A Stack is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
 
-* `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
-* `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
-* `Peek` - View the top element without removing it.
-* `Empty` - Check if the stack is empty.
+  * `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+  * `pop()` – Deletes the topmost element of the stack – Time Complexity: O(1)
+  * `Peek` - View the top element without removing it.
+  * `Empty` - Check if the stack is empty.
 
 【`Last Update: 2024-11-19`】
 
@@ -161,12 +161,12 @@ is_empty = len(stack) == 0
 ```
 
 - **Queue:**
-**Queue** is a linear data structure that stores items in **First In First Out (FIFO)** manner. With a queue the least recently added item is removed first. 
+Queue is a linear data structure that stores items in **First In First Out (FIFO)** manner. With a queue the least recently added item is removed first. 
 
-* `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : O(1)
-* `Dequeue`: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition – Time Complexity : O(1)
-* `Peek`: View the front element without removing it.
-* `Empty`: Check if the queue is empty.
+  * `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : O(1)
+  * `Dequeue`: Removes an item from the queue. The items are popped in the same order in which they are pushed. If the queue is empty, then it is said to be an Underflow condition – Time Complexity : O(1)
+  * `Peek`: View the front element without removing it.
+  * `Empty`: Check if the queue is empty.
 
 【`Last Update: 2024-11-19`】
 
@@ -385,6 +385,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 * `Date: 2024-11-18`:
   * [Leetcode 92 - Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)【Linked List】
   * [Leetcode 61 - Rotate List](https://leetcode.com/problems/rotate-list/description)【Linked List】【Two Pointers】
+* `Date: 2024-11-19`:
+  * [Leetcode 20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)【Stack】【String】
+* `Date: 2024-11-21`:
+  * [Leetcode 155 - Min Stack](https://leetcode.com/problems/min-stack/description/)【Stack】
+  * [Leetcode 682 - Baseball Game](https://leetcode.com/problems/baseball-game/description/)【Stack】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
