@@ -190,6 +190,65 @@ front = queue[0] if queue else None
 is_empty = len(queue) == 0
 ```
 
+- **Deque:**
+A deque is a generalized queue that allows insertion and deletion from both ends with O(1) complexity. Internally, it is implemented as a doubly linked list or a circular buffer.
+
+【`Last Update: 2024-11-25`】
+
+```
+from collections import deque
+
+# Initialize a deque
+dq = deque()
+
+# Add elements
+dq.append(1)       # Add to the right
+dq.appendleft(2)   # Add to the left
+
+# Remove elements
+dq.pop()           # Remove from the right
+dq.popleft()       # Remove from the left
+
+# Access and manipulation
+dq.extend([3, 4])          # Add multiple elements to the right
+dq.extendleft([0, -1])     # Add multiple elements to the left (reversed order)
+dq.rotate(1)               # Rotate elements right
+dq.rotate(-1)              # Rotate elements left
+dq.clear()                 # Clear all elements
+```
+
+- **Heap:**
+A heap is a complete binary tree stored as an array. It maintains the heap property: in a min-heap, the parent is less than or equal to its children. Insertions and deletions are O(log n) due to the need to maintain the heap property.
+
+【`Last Update: 2024-11-25`】
+
+```
+import heapq
+
+# Initialize a heap
+heap = []
+
+# Add elements
+heapq.heappush(heap, 3)  # Push element into the heap
+heapq.heappush(heap, 1)
+heapq.heappush(heap, 4)
+
+# Access the smallest element
+smallest = heap[0]
+
+# Remove elements
+min_element = heapq.heappop(heap)  # Pop the smallest element
+
+# Heapify an existing list
+nums = [4, 1, 7, 3]
+heapq.heapify(nums)
+
+# Get n largest or smallest elements
+largest = heapq.nlargest(2, nums)
+smallest = heapq.nsmallest(2, nums)
+```
+
+
 ## Advanced Data Structures
 ### Study:
 - **Trees**: Explore the concepts of binary trees, binary search trees, AVL trees, and tree traversals (in-order, pre-order, post-order, level-order).
@@ -397,6 +456,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 622 - Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)【Queue】
 * `Date: 2024-11-24`:
   * [Leetcode 933 - Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/)【Queue】
+* `Date: 2024-11-25`:
+  * [Leetcode 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)【Deque】【Sliding Window】
+  * [Leetcode 641 - Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)【Deque】
+  * [Leetcode 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)【Heap】
+  * [Leetcode 23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)【Heap】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
