@@ -16,7 +16,7 @@
 ### Study:
 - **Arrays and Strings**: Understand how to manipulate arrays (e.g., resizing, iterating, filtering) and basic operations on strings (e.g., substring, concatenation, palindrome checking).
 - **Linked Lists**: Learn the structure of single and doubly linked lists, and common operations such as insertion, deletion, searching, and reversing.
-- **Stacks, Queues, Deque and Deque**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
+- **Stacks, Queues, Deque and Heap**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
 
 ### Notes:
 - **Arrays:**
@@ -392,7 +392,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 682 - Baseball Game](https://leetcode.com/problems/baseball-game/description/)【Stack】
 * `Date: 2024-11-22`:
   * [Leetcode 739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)【Stack】【Monotonic Stack】
-  * [Leetcode 232 - Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)【Stack】【Queue】
+  * [Leetcode 232 - Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)【Queue】【Stack】
+  * [Leetcode 225 - Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)【Stack】【Queue】
+  * [Leetcode 622 - Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)【Queue】
+* `Date: 2024-11-24`:
+  * [Leetcode 933 - Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/)【Queue】
 <------------------------------------------------------------------------------------------------->
 
 # **LeetCode Problems' Solutions**
