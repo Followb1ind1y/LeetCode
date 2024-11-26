@@ -10,16 +10,42 @@
 <a href="https://githubtocolab.com/Followb1ind1y/LeetCode"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab"/></a>       
 </p>
 
-# Machine Learning Engineer Interview Preparation Plan
+# Leetcode Interview Preparation Plan
+
+- [Leetcode Interview Preparation Plan](#leetcode-interview-preparation-plan)
+  * [Basic Data Structures](#basic-data-structures)
+    + [**Overview**](#--overview--)
+    + [**Arrays**](#--arrays--)
+    + [**Strings**](#--strings--)
+    + [**Linked Lists**](#--linked-lists--)
+    + [**Stack**](#--stack--)
+    + [**Queue**](#--queue--)
+    + [**Deque**](#--deque--)
+    + [**Heap**](#--heap--)
+  * [Advanced Data Structures](#advanced-data-structures)
+    + [**Overview**](#--overview---1)
+    + [**Hash Tables**](#--hash-tables--)
+    + [Practice:](#practice-)
+  * [Core Algorithms](#core-algorithms)
+    + [**Overview**](#--overview---2)
+    + [**Two Pointer**](#--two-pointer--)
+    + [**Prefix Sum and Suffix Sum**](#--prefix-sum-and-suffix-sum--)
+    + [Practice:](#practice--1)
+  * [Advanced Algorithms](#advanced-algorithms)
+    + [**Overview**:](#--overview---)
+    + [Notes:](#notes-)
+    + [Practice:](#practice--2)
+  * [**练习记录**](#--------)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Basic Data Structures
-### Study:
+### **Overview**
 - **Arrays and Strings**: Understand how to manipulate arrays (e.g., resizing, iterating, filtering) and basic operations on strings (e.g., substring, concatenation, palindrome checking).
 - **Linked Lists**: Learn the structure of single and doubly linked lists, and common operations such as insertion, deletion, searching, and reversing.
 - **Stacks, Queues, Deque and Heap**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
 
-### Notes:
-- **Arrays:**
+### **Arrays**
 In Python, arrays are typically represented using lists. While Python doesn't have a native array type as seen in other languages like Java or C++, lists are versatile and can be used similarly to arrays. 
 
 【`Last Update: 2024-08-14`】
@@ -68,7 +94,7 @@ arr1 = [1, 2, 2, 3]
 arr2 = [2, 3, 4]
 intersection = list(set(arr1) & set(arr2))  # 结果：[2, 3]
 ```
-- **Strings:**
+### **Strings**
 Strings in Python are immutable sequences of characters. You can perform various operations on strings using built-in methods and operators.
 
 【`Last Update: 2024-08-14`】
@@ -89,7 +115,7 @@ words = s.split(", ")  # O(n), where n is the length of the string
 joined = " - ".join(words)  # O(n), where n is the total length of the resulting string
 ```
 
-- **Linked Lists:**
+### **Linked Lists**
 A Linked List is a linear data structure consisting of nodes, where each node contains:
 
   * A data part that stores the actual data.
@@ -133,7 +159,7 @@ def search(head, key):
     return False  # Data not found
 ```
 
-- **Stack:**
+### **Stack**
 A Stack is a linear data structure that stores items in a **Last-In/First-Out (LIFO)** or **First-In/Last-Out (FILO)** manner. In stack, a new element is added at one end and an element is removed from that end only.
 
   * `push(a)` – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
@@ -160,7 +186,7 @@ top = stack[-1] if stack else None  # Returns 1
 is_empty = len(stack) == 0
 ```
 
-- **Queue:**
+### **Queue**
 Queue is a linear data structure that stores items in **First In First Out (FIFO)** manner. With a queue the least recently added item is removed first. 
 
   * `Enqueue`: Adds an item to the queue. If the queue is full, then it is said to be an Overflow condition – Time Complexity : O(1)
@@ -190,7 +216,7 @@ front = queue[0] if queue else None
 is_empty = len(queue) == 0
 ```
 
-- **Deque:**
+### **Deque**
 A deque is a generalized queue that allows insertion and deletion from both ends with O(1) complexity. Internally, it is implemented as a doubly linked list or a circular buffer.
 
 【`Last Update: 2024-11-25`】
@@ -217,7 +243,7 @@ dq.rotate(-1)              # Rotate elements left
 dq.clear()                 # Clear all elements
 ```
 
-- **Heap:**
+### **Heap**
 A heap is a complete binary tree stored as an array. It maintains the heap property: in a min-heap, the parent is less than or equal to its children. Insertions and deletions are O(log n) due to the need to maintain the heap property.
 
 【`Last Update: 2024-11-25`】
@@ -250,13 +276,12 @@ smallest = heapq.nsmallest(2, nums)
 
 
 ## Advanced Data Structures
-### Study:
+### **Overview**
 - **Trees**: Explore the concepts of binary trees, binary search trees, AVL trees, and tree traversals (in-order, pre-order, post-order, level-order).
 - **Graphs**: Learn about different graph representations (adjacency list, adjacency matrix), and traversal algorithms (Depth-First Search, Breadth-First Search) to solve problems like finding connected components or checking cycles.
 - **Hash Tables**: Study how hash tables work, including hashing functions, handling collisions, and applications in tasks like item counting or implementing dictionaries.
 
-### Notes:
-- **Hash Tables**:
+### **Hash Tables**
 In Python, the built-in dict type (short for dictionary) functions as a hash table. Hash tables are a key data structure used for efficient data retrieval and storage, providing average time complexities of O(1) for insertion, deletion, and lookup operations due to their underlying hashing mechanism.
 
 【`Last Update: 2024-11-06`】
@@ -322,15 +347,14 @@ print(dict(dd))  # 输出：{'a': 1}
   - [Longest Consecutive Sequence - LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ## Core Algorithms
-### Study:
+### **Overview**
 - **Two Pointer**: The two-pointer technique is used primarily in solving array and linked list problems. It involves using two pointers to traverse the data structure, allowing for efficient searching and processing of elements. 
 - **Sorting Algorithms**: Review the mechanisms and use cases for quicksort, mergesort, and heapsort. Understand the trade-offs in terms of time and space complexity.
 - **Search Algorithms**: Study binary search on sorted arrays, and learn about its variations for finding the first or last position of an element.
 - **Recursion and Backtracking**: Understand how to apply recursion for solving problems involving permutations, combinations, and other backtrack-required scenarios. Study the call stack mechanism and how to optimize recursion through memoization.
 - **Prefix Sum and Suffix Sum**: Prefix Sum and Suffix Sum are techniques used to compute the sum of elements in a subarray quickly by precomputing cumulative sums.
 
-### Notes:
-- **Two Pointer**:
+### **Two Pointer**
   * Finding Pairs with a Given Sum: When looking for two numbers in a sorted array that add up to a specific target.
   * Reversing a String or Array: Using two pointers to swap elements from the start and end until they meet in the middle.
   * Merging Two Sorted Arrays: Traversing both arrays simultaneously to create a new sorted array.
@@ -339,7 +363,7 @@ print(dict(dd))  # 输出：{'a': 1}
 
 【`Last Update: 2024-11-07`】
 
-- **Prefix Sum and Suffix Sum**:
+### **Prefix Sum and Suffix Sum**
 	1.	Prefix Sum: For an array nums, the prefix sum at each index i is the sum of all elements from the start of the array up to i. This allows you to find the sum of any subarray [i, j] in constant time by calculating prefix[j+1] - prefix[i].
 	2.	Suffix Sum: For the same array nums, the suffix sum at index i is the sum of all elements from i to the end of the array. It enables efficient queries for sums of subarrays that start from any index i to a given end by using suffix[i] - suffix[j+1].
 
@@ -373,7 +397,7 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   - [N-Queens - LeetCode 51](https://leetcode.com/problems/n-queens/)
 
 ## Advanced Algorithms
-### Study:
+### **Overview**:
 - **Dynamic Programming**: Explore the methodology of solving problems by breaking them down into smaller subproblems, storing results, and combining them to solve larger problems. Focus on understanding the concepts of overlapping subproblems and optimal substructure.
 - **Greedy Algorithms**: Learn how greedy choices can lead to globally optimized solutions and their applications in problems like scheduling, graph based problems (like minimum spanning trees), and currency denomination.
 - **Graph Algorithms**: Study shortest path algorithms (Dijkstra’s, Bellman-Ford) and minimum spanning tree algorithms (Prim’s, Kruskal’s). Understand their use cases and limitations.
@@ -388,23 +412,6 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 - [ ] Graph Algorithms:
   - [Network Delay Time (Dijkstra's Algorithm) - LeetCode 743](https://leetcode.com/problems/network-delay-time/)
 
-## Special Topics Relevant to Machine Learning
-### Study:
-- **Geometric Algorithms**: Explore algorithms for computational geometry problems, such as finding the closest pair of points, checking point inclusion in a polygon, or computing the convex hull of a set of points.
-- **Probabilistic Algorithms and Heuristics**: Learn about algorithms that incorporate randomness and probability, such as Monte Carlo methods and randomized optimization algorithms.
-- **Advanced Data Structures for ML**: Dive into understanding more complex data structures like segment trees for range queries, Fenwick trees for cumulative frequency tables, and how they can be applied in machine learning contexts.
-
-### Notes:
--
-
-### Practice:
-- [ ] Geometric and Probabilistic Algorithms:
-  - [Max Points on a Line - LeetCode 149](https://leetcode.com/problems/max-points-on-a-line/)
-  - [Linked List Random Node - LeetCode 382](https://leetcode.com/problems/linked-list-random-node/)
-- [ ] Advanced Data Structures:
-  - [Range Sum Query - Mutable (Segment Tree) - LeetCode 307](https://leetcode.com/problems/range-sum-query-mutable/)
-
-<------------------------------------------------------------------------------------------------->
 ## **练习记录**
 * `Date: 2024-11-06`:
   * [LeetCode 1 - Two Sum](https://leetcode.com/problems/two-sum/)【Array】【Hash Table】
@@ -461,7 +468,7 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 641 - Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)【Deque】
   * [Leetcode 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)【Heap】
   * [Leetcode 23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)【Heap】
-<------------------------------------------------------------------------------------------------->
+
 
 # **LeetCode Problems' Solutions**
 ## Cheet Sheet
