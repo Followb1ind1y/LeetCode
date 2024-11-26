@@ -14,18 +14,16 @@
 
 - [Leetcode Interview Preparation Plan](#leetcode-interview-preparation-plan)
   * [Basic Data Structures](#basic-data-structures)
-    + [Overview](#overview)
     + [Arrays](#arrays)
     + [Strings](#strings)
     + [Linked Lists](#linked-lists)
     + [Stack](#stack)
     + [Queue](#queue)
     + [Deque](#deque)
-    + [Heap](#heap)
   * [Advanced Data Structures](#advanced-data-structures)
-    + [Overview](#overview-1)
+    + [Heap](#heap)
+    + [Tree](#tree)
     + [Hash Tables](#hash-tables)
-    + [Practice](#practice)
   * [Core Algorithms](#core-algorithms)
     + [Overview](#overview-2)
     + [Two Pointer](#two-pointer)
@@ -38,10 +36,6 @@
   * [练习记录](#练习记录)
 
 ## Basic Data Structures
-### **Overview**
-- **Arrays and Strings**: Understand how to manipulate arrays (e.g., resizing, iterating, filtering) and basic operations on strings (e.g., substring, concatenation, palindrome checking).
-- **Linked Lists**: Learn the structure of single and doubly linked lists, and common operations such as insertion, deletion, searching, and reversing.
-- **Stacks, Queues, Deque and Heap**: Understand the LIFO (Last In First Out) concept of stacks and the FIFO (First In First Out) concept of queues. Study their applications in solving problems like system navigation or printer task scheduling.
 
 ### **Arrays**
 In Python, arrays are typically represented using lists. While Python doesn't have a native array type as seen in other languages like Java or C++, lists are versatile and can be used similarly to arrays. 
@@ -241,8 +235,25 @@ dq.rotate(-1)              # Rotate elements left
 dq.clear()                 # Clear all elements
 ```
 
+## Advanced Data Structures
+### **Overview**
+- **Trees**: Explore the concepts of binary trees, binary search trees, AVL trees, and tree traversals (in-order, pre-order, post-order, level-order).
+- **Graphs**: Learn about different graph representations (adjacency list, adjacency matrix), and traversal algorithms (Depth-First Search, Breadth-First Search) to solve problems like finding connected components or checking cycles.
+- **Hash Tables**: Study how hash tables work, including hashing functions, handling collisions, and applications in tasks like item counting or implementing dictionaries.
+
 ### **Heap**
-A heap is a complete binary tree stored as an array. It maintains the heap property: in a min-heap, the parent is less than or equal to its children. Insertions and deletions are O(log n) due to the need to maintain the heap property.
+A heap is a complete binary tree stored as an array. It maintains the heap property: in a min-heap, **the parent is less than or equal to its children**. Insertions and deletions are **O(log n)** due to the need to maintain the heap property.
+
+  * Two main types:
+    * Min-Heap: The root node is the smallest, and every parent node is smaller than or equal to its children.
+    * Max-Heap: The root node is the largest, and every parent node is larger than or equal to its children.
+  * Root Node Access: 
+    * Min-Heap: Root is the smallest element
+    * Max-Heap: Root is the largest element.
+  * Efficient Operations:
+    * Insert and delete both take O(log n).
+    * Maintains heap properties using adjustments (upward or downward shifts).
+
 
 【`Last Update: 2024-11-25`】
 
@@ -272,12 +283,95 @@ largest = heapq.nlargest(2, nums)
 smallest = heapq.nsmallest(2, nums)
 ```
 
+### **Tree**
+A tree is a hierarchical data structure with nodes connected by edges. The topmost node is the root, and nodes with no children are called leaves.
 
-## Advanced Data Structures
-### **Overview**
-- **Trees**: Explore the concepts of binary trees, binary search trees, AVL trees, and tree traversals (in-order, pre-order, post-order, level-order).
-- **Graphs**: Learn about different graph representations (adjacency list, adjacency matrix), and traversal algorithms (Depth-First Search, Breadth-First Search) to solve problems like finding connected components or checking cycles.
-- **Hash Tables**: Study how hash tables work, including hashing functions, handling collisions, and applications in tasks like item counting or implementing dictionaries.
+  * **Binary Tree**: Each node has at most two children.
+  * **Binary Search Tree (BST)**: A binary tree where the left child contains values less than the parent, and the right child contains values greater.
+  * **Balanced Tree**: A tree where the height difference between left and right subtrees of any node is minimal (e.g., AVL tree, Red-Black tree).
+  * **Tree Traversals**:
+    * Preorder Traversal (Root, Left, Right)
+    * Inorder Traversal (Left, Root, Right)
+    * Postorder Traversal (Left, Right, Root)
+
+```
+## Trees are often represented using classes. 
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```
+
+  <p align="center">
+  <img src="Tree/img/LeetCode0094_Preorder-from-Inorder-and-Postorder-traversals.jpg" width="500">
+  </p>
+
+```
+## Preorder Traversal (Root, Left, Right)
+def preorder_traversal(root):
+    if root:
+        print(root.val)
+        preorder_traversal(root.left)
+        preorder_traversal(root.right)
+
+## Inorder Traversal (Left, Root, Right)
+def inorder_traversal(root):
+    if root:
+        inorder_traversal(root.left)
+        print(root.val)
+        inorder_traversal(root.right)
+
+## Postorder Traversal (Left, Right, Root)
+def postorder_traversal(root):
+    if root:
+        postorder_traversal(root.left)
+        postorder_traversal(root.right)
+        print(root.val)
+```
+
+```
+## Binary Search Tree (BST) Operations
+
+## 1. Insert a Node
+def insert_into_bst(root, val):
+    if not root:
+        return TreeNode(val)
+    if val < root.val:
+        root.left = insert_into_bst(root.left, val)
+    else:
+        root.right = insert_into_bst(root.right, val)
+    return root
+
+## 	2. Search for a Value
+def search_bst(root, val):
+    if not root or root.val == val:
+        return root
+    if val < root.val:
+        return search_bst(root.left, val)
+    return search_bst(root.right, val)
+
+## 	3. Delete a Node
+def delete_node(root, key):
+    if not root:
+        return None
+    if key < root.val:
+        root.left = delete_node(root.left, key)
+    elif key > root.val:
+        root.right = delete_node(root.right, key)
+    else:
+        if not root.left:
+            return root.right
+        if not root.right:
+            return root.left
+        min_larger_node = root.right
+        while min_larger_node.left:
+            min_larger_node = min_larger_node.left
+        root.val = min_larger_node.val
+        root.right = delete_node(root.right, root.val)
+    return root
+```
 
 ### **Hash Tables**
 In Python, the built-in dict type (short for dictionary) functions as a hash table. Hash tables are a key data structure used for efficient data retrieval and storage, providing average time complexities of O(1) for insertion, deletion, and lookup operations due to their underlying hashing mechanism.
@@ -466,6 +560,11 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 641 - Design Circular Deque](https://leetcode.com/problems/design-circular-deque/description/)【Deque】
   * [Leetcode 215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)【Heap】
   * [Leetcode 23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)【Heap】
+* `Date: 2024-11-26`:
+  * [Leetcode 94 - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)【Tree】【Binary Tree】
+  * [Leetcode 144 - Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)【Tree】【Binary Tree】
+  * [Leetcode 145 - Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)【Tree】【Binary Tree】
+  * [Leetcode 104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)【Tree】【Binary Tree】
 
 
 # **LeetCode Problems' Solutions**
