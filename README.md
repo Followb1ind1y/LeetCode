@@ -565,7 +565,7 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 144 - Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)【Tree】【Binary Tree】
   * [Leetcode 145 - Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)【Tree】【Binary Tree】
   * [Leetcode 104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)【Tree】【Binary Tree】【Depth-First Search】
-* `Date: 2024-11-26`:
+* `Date: 2024-11-27`:
   * [Leetcode 111 - Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)【Tree】【Binary Tree】【Depth-First Search】
   * [Leetcode 112 - Path Sum](https://leetcode.com/problems/path-sum/description/)【Tree】【Binary Tree】【Depth-First Search】
   * [Leetcode 101 - Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description)【Tree】【Binary Tree】【Depth-First Search】
