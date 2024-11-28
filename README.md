@@ -569,6 +569,8 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 111 - Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)【Tree】【Binary Tree】【Depth-First Search】
   * [Leetcode 112 - Path Sum](https://leetcode.com/problems/path-sum/description/)【Tree】【Binary Tree】【Depth-First Search】
   * [Leetcode 101 - Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description)【Tree】【Binary Tree】【Depth-First Search】
+* `Date: 2024-11-28`:
+  * [Leetcode 98 - Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)【Binary Search Tree】【Depth-First Search】
 
 # **LeetCode Problems' Solutions**
 ## Cheet Sheet
