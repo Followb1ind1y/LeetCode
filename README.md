@@ -571,6 +571,8 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
   * [Leetcode 101 - Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description)【Tree】【Binary Tree】【Depth-First Search】
 * `Date: 2024-11-28`:
   * [Leetcode 98 - Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)【Binary Search Tree】【Depth-First Search】
+* `Date: 2024-12-04`:
+  * [Leetcode 226 - Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description)【Binary Search Tree】【Depth-First Search】
 
 # **LeetCode Problems' Solutions**
 ## Cheet Sheet
